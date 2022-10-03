@@ -17,9 +17,7 @@ body {
 }
 
 /* Icons */
-#globe,
-#clock,
-#calendar {
+#globe,#clock,#calendar {
     width: 22px;
     height: 21px;
 }
