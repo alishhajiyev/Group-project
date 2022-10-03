@@ -6,3 +6,177 @@
     background-color: #EFEFEF;
     position: absolute;
 }
+
+.format {
+  
+width: 667px;
+height: 93px;
+left: 121px;
+top: 2000px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+/* or 56px */
+
+
+color: #000000;
+}
+
+.what {
+    width: 667px;
+height: 93px;
+left: 121px;
+top: 2510px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+/* or 56px */
+
+
+color: #000000;
+
+}
+
+.head-three-1 {
+  
+width: 150px;
+height: 39px;
+left: 122px;
+top: 2182px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+/* or 32px */
+
+
+color: #1E4681;
+}
+
+.head-three-2 {
+   
+    width: 214px;
+    height: 39px;
+    left: 467px;
+    top: 2182px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    /* or 32px */
+    
+    
+    color: #1E4681; 
+}
+
+.head-three-3 {
+  
+width: 150px;
+height: 39px;
+left: 851px;
+top: 2182px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+/* or 32px */
+
+
+color: #1E4681;
+}
+.p-coluumn-1 {
+   
+width: 223px;
+height: 39px;
+left: 122px;
+top: 2222px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #000000;
+}
+
+.p-coluumn-2 {
+    
+    width: 271px;
+    height: 109px;
+    left: 467px;
+    top: 2222px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    
+    
+    color: #000000;    
+}
+
+.p-coluumn-3 {
+   
+width: 245px;
+height: 39px;
+left: 851px;
+top: 2222px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #000000;
+}
+
+.unorder {
+ 
+width: 662px;
+height: 374px;
+left: 138px;
+top: 2624px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+
+color: #000000;
+
+}
+
+.first-division {
+    width: 975px;
+    height: 331px;
+    margin-left: 121px;
+}
+div{
+    display: flex;
+}
+.block{
+    display: block;
+}
