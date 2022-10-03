@@ -18,16 +18,94 @@
 /* end-Sunay */
 /* Курс прошло уже 1616 человек–Nurana */
 .grey{
+    position: absolute;
     height: 780px;
     width: 1440px;
     top: 4625px;
     left: -1px;
     background-color: #EFEFEF;
-    position: absolute;
 }
+#white{
+    Width: 791px;
+    Height:451px;
+    Top:4843px;
+    left: 125px;
+    border-radius:30px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+#black{
+    width: 353px;
+    height: 59px;
+    left: 371px;
+    top: 5136px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    line-height: 101.38%;
+}
+#img{
+    width: 190px;
+    height: 169px;
+    left: 151px;
+    top: 5096px;
+}
+#fb{
+    width: 32px;
+    height: 31px;
+    left: 371px;
+    top: 5195px;
 
-
-
-
-
+}
+h1{
+    width: 987px;
+    height: 93px;
+    left: 121px;
+    top: 4716px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+#paragraph{
+    width: 700px;
+    height: 203px;
+    left: 170px;
+    top: 4883px;
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+#lightblue{
+    position: absolute;
+    width: 1440px;
+    height: 780px;
+    left: -1px;
+    top: 5405px;
+    background: #9DC9C8;
+}
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 390px;
+    left: -1px;
+    top: 6185px;
+    background: #000000;
+}
+p{
+    color: white;
+}
+.black{
+    color: black;
+}
 /* end Nurana */
