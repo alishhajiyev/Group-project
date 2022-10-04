@@ -324,14 +324,153 @@ height: 160px;
 
 /* end-Sunay */
 /* Курс прошло уже 1616 человек–Nurana */
-.grey {
-    height: 780px;
+#grey{
     width: 1440px;
-    top: 4625px;
+    height: 780px;
+    margin-left: 1px;
+    margin-top: 121px;
+    background: #EFEFEF;
+    padding-top: 91px;
+    padding-bottom: 111px;
+}
+#celovek{
+    margin: 91px 331px 34px 122px;
+    width: 987px;
+    height: 93px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 55px;
+}
+#white{
+    width: 791px;
+    height: 451px;
+    margin: 34px 523px 111px 126px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 46px 50px 45px;
+}
+#text{
+    font-size: 20px;
+    width: 700px;
+    height: 203px;
+}
+#img1{
+    width: 190px;
+    height: 169px;
+    margin: 10px 30px 29px 26px;
+}
+#ekaterina{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 30px;
+    width: 353px;
+    height: 59px;
+    margin: 50px 0px 0px 30px;
+}
+#div{
+    display: flex;
+}
+#fb{
+    width: 32px;
+    height: 31px;
+    margin-left: 30px;
+}
+#ekaterinablock{
+    display: flex;
+    flex-direction: column;
+}
+#lightblue {
+    width: 1440px;
+    height: 780px;
+    margin-left: 0px;
+    background-color: #9DC9C8;
+    margin-top: -20px;
+    padding-top: 179px;
+    padding-left: 122px;
+    box-sizing: border-box;
+}
+#september{
+    font-weight: 700;
+    font-size: 55px;
+    width: 908px;
+    height: 66px;
+}
+#price{
+    font-size: 25px;
+    width: 170px;
+    height: 32px;
+    margin-bottom: 0px;
+}
+#rubl{
+    width: 481px;
+    height: 181px;
+    font-weight: 400;
+    font-size: 80px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.td1{
+    width: 294px;
+    height: 32px; 
+    padding-bottom: 9px;
+    padding-right: 70px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.td2{
+    width: 322px;
+    height: 32px;
+    font-size: 18px;
+}
+#black{
+    width: 1440px;
+    height: 390px;
+    background: #000000;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+#hehe{
+    width: 115px;
+    height: 68px;
+    margin-left: 122px;
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+#image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 122px ;
+}
+.facebook{
+    width: 32px;
+    height: 32px;
+    margin-right: 18px;
+}
+.mobile{
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
+#image2 {
+    color: white;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+.xexe{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: -5px ;
 
-    left: -1px;
-    background-color: #EFEFEF;
-    position: absolute;
+}
+#end{
+    margin-top: 70px;
+    margin-left: 122px;
+    width: 230px;
+    height: 40px;
+    color: white;
 }
 
 /* end Nurana */
