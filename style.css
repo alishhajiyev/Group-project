@@ -292,3 +292,89 @@ h1 {
 
 /* end Nurana */
 
+
+/* TABLET */
+@media only screen and (max-width:1280px) {
+    /* Как смотреть кино– Alish */
+
+
+
+
+
+
+
+
+    /* end Alish */
+    /* Формат занятий– Goychak */
+
+
+
+
+
+
+
+
+
+    /* end-Goychak */
+    /* Программа курса – Sunay */
+
+
+
+
+
+
+
+
+
+    /* end-Sunay */
+    /* Курс прошло уже 1616 человек–Nurana */
+
+
+
+
+
+
+    
+
+    
+    /* end Nurana */
+}
+/* MOBILE */
+@media only screen and (max-width:1280px) {
+    /* Как смотреть кино– Alish */
+
+
+
+
+
+
+
+    /* end Alish */
+    /* Формат занятий– Goychak */
+
+
+
+
+
+
+
+    /* end-Goychak */
+    /* Программа курса – Sunay */
+
+
+
+
+
+
+    /* end-Sunay */
+    /* Курс прошло уже 1616 человек–Nurana */
+
+
+
+
+
+
+
+    
+    /* end Nurana */
+}
