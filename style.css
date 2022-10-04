@@ -478,7 +478,7 @@ height: 160px;
 
 
 /* TABLET */
-@media only screen and (max-width:1280px) {
+@media only screen and (min-width:992px) and (max-width:1280px) {
     /* Как смотреть кино– Alish */
 body{
     padding-left: 70px;
@@ -516,8 +516,6 @@ h1{
     height: 110.04px;
 }
 
-
-
 #description {
     width: 264px;
     height: 36px;
@@ -547,7 +545,7 @@ h1{
     background: #1E4681;
     border-radius: 5px;
     width: 280.11px;
-height: 115.83px;
+    height: 115.83px;
     padding: 10px 20px 5px 15px;
     margin: 100px 0px 0px 180px;
     box-sizing: border-box;
@@ -564,7 +562,7 @@ height: 115.83px;
 #author {
     font-size: 12px;
     width: 162.46px;
-height: 26.43px;
+    height: 26.43px;
     position: relative;
     left: 270px;
 }
@@ -659,23 +657,8 @@ height: 26.43px;
 .data {
     font-size: 11px;
     width: 90px;
-height: 23px;
+    height: 23px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* end Alish */
     /* Формат занятий– Goychak */
 
@@ -712,13 +695,181 @@ height: 23px;
     /* end Nurana */
 }
 /* MOBILE */
-@media only screen and (min-width:320px) and (max-width:992px) {
+@media only screen and (min-width:320px) and (max-width:991px) {
     /* Как смотреть кино– Alish */
+body{
+    padding-left: 35px;
+    padding-top: 35px;
+    width: 375px;
+}
 
+#logo{
+    width: 52.19px;
+    height: 30.75px;
+    margin-bottom: 30px;
+}
 
+/* Icons */
+#globe,
+#clock,
+#calendar {
+    width: 10.25px;
+    height: 9.79px;
+}
 
+/* paragraph next to icons */
+.icon-p {
 
+    font-size: 10px;
+    margin-right: 10px;
+    margin-left: 4px;
+}
 
+/* div with icons */
+#icons {
+    margin-top: 0px;
+}
+
+h1{
+    font-size: 37px;
+    width: 292.63px;
+    height: 88.53px;
+}
+
+#description {
+    width: 212.4px;
+    height: 28.96px;
+    font-size: 10px;
+}
+
+/* photos 1 */
+#photo1 {
+    position: absolute;
+    width: 141.66px;
+height: 165.89px;
+    left: 550px;
+    top: 165px;
+}
+
+#ellipse1 {
+    position: absolute;
+    width: 127.68px;
+    height: 19.1px;
+    left: 568px;
+    top: 355px;
+    z-index: -1;
+}
+
+/* Notation block */
+#notation {
+    background: #1E4681;
+    border-radius: 5px;
+    width: 225.36px;
+    height: 93.19px;
+    padding: 10px 20px 5px 15px;
+    margin: 100px 0px 0px 180px;
+    box-sizing: border-box;
+}
+
+#main-notation {
+    width: 200.64px;
+    height: 52.65px;
+    font-size: 11px;
+    font-family: 'Roboto Slab';
+
+}
+
+#author {
+    font-size: 12px;
+    width: 130.7px;
+    height: 21.27px;
+    position: relative;
+    left: 270px;
+}
+
+#main-notation, #author {
+    color: white;
+}
+
+/* About course */
+.container {
+    width: 365px;
+    margin-top: 45px;
+}
+
+#about-h2 {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 26px;
+    width: 170.08px;
+    height: 43.34px;
+    margin-bottom: 5px;
+}
+
+#description-of-course {
+    font-size: 12px;
+    width: 308.47px;
+    height: 174.27px;
+}
+
+#photo2 {
+    position: absolute;
+    width: 146.32px;
+    height: 146.78px;
+    left: 555px;
+    top: 619px;
+}
+
+#ellipse2 {
+    position: absolute;
+    width: 170.55px;
+    height: 27.49px;
+    left: 540px;
+    top: 784px;
+    z-index: -1;
+}
+
+/* Photo block 3 */
+.info {
+    margin-right: 0px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+#photo3 {
+    display: none;
+}
+
+#ellipse3 {
+    display: none;
+}
+
+/* Data block */
+#data-block {
+    width: 500px;
+    display: flex;
+    margin: 10px 0px 0px 67px;
+}
+/*  */
+.data-subblock {
+    display: block;
+    padding: 15px;
+
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 12px;
+    width: 70px;
+    height: 18px;
+}
+
+.data {
+    font-size: 10px;
+    width: 86px;
+    height: 18px;
+}
 
 
     /* end Alish */
