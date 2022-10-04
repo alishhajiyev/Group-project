@@ -107,6 +107,7 @@ h1 {
 /* About course */
 .container {
     width: 365px;
+    margin-top: 155px;
 }
 
 #about-h2 {
@@ -129,7 +130,7 @@ h1 {
     width: 314px;
     height: 315px;
     left: 973px;
-    top: 1060px;
+    top: 1150px;
 }
 
 #ellipse2 {
@@ -137,7 +138,7 @@ h1 {
     width: 366px;
     height: 59px;
     left: 947px;
-    top: 1350px;
+    top: 1440px;
     z-index: -1;
 }
 
@@ -479,6 +480,194 @@ height: 160px;
 /* TABLET */
 @media only screen and (max-width:1280px) {
     /* Как смотреть кино– Alish */
+body{
+    padding-left: 70px;
+}
+
+#logo{
+    width: 64.87px;
+    height: 38.23px;
+}
+
+/* Icons */
+#globe,
+#clock,
+#calendar {
+    width: 12px;
+    height: 12px;
+}
+
+/* paragraph next to icons */
+.icon-p {
+
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* div with icons */
+#icons {
+    margin-top: 0px;
+}
+
+h1{
+    font-size: 46px;
+    width: 363.72px;
+    height: 110.04px;
+}
+
+
+
+#description {
+    width: 264px;
+    height: 36px;
+    font-size: 12px;
+}
+
+/* photos 1 */
+#photo1 {
+    position: absolute;
+    width: 176.07px;
+    height: 206.18px;
+    left: 550px;
+    top: 165px;
+}
+
+#ellipse1 {
+    position: absolute;
+    width: 158.69px;
+    height: 23.75px;
+    left: 568px;
+    top: 355px;
+    z-index: -1;
+}
+
+/* Notation block */
+#notation {
+    background: #1E4681;
+    border-radius: 5px;
+    width: 280.11px;
+height: 115.83px;
+    padding: 10px 20px 5px 15px;
+    margin: 100px 0px 0px 180px;
+    box-sizing: border-box;
+}
+
+#main-notation {
+    width: 249.38px;
+    height: 65.45px;
+    font-size: 14px;
+    font-family: 'Roboto Slab';
+
+}
+
+#author {
+    font-size: 12px;
+    width: 162.46px;
+height: 26.43px;
+    position: relative;
+    left: 270px;
+}
+
+#main-notation, #author {
+    color: white;
+}
+
+/* About course */
+.container {
+    width: 365px;
+    margin-top: 90px;
+}
+
+#about-h2 {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 32px;
+    width: 211.4px;
+    height: 53.86px;
+    margin-bottom: 5px;
+}
+
+#description-of-course {
+    font-size: 14px;
+    width: 383.41px;
+    height: 216.61px;
+}
+
+#photo2 {
+    position: absolute;
+    width: 181.86px;
+    height: 182.44px;
+    left: 555px;
+    top: 619px;
+}
+
+#ellipse2 {
+    position: absolute;
+    width: 211.98px;
+    height: 34.17px;
+    left: 540px;
+    top: 784px;
+    z-index: -1;
+}
+
+/* Photo block 3 */
+.info {
+    margin-right: 0px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+#photo3 {
+    position: relative;
+    width: 134.37px;
+    height: 117.57px;
+    left: 0px;
+    top: 0px;
+}
+
+#ellipse3 {
+    position: relative;
+    width: 109.46px;
+    height: 18.53px;
+    left: 19px;
+    top: -14px;
+    z-index: -1;
+}
+
+/* Data block */
+#data-block {
+    width: 500px;
+    display: flex;
+    margin: 10px 0px 0px 67px;
+}
+
+.data-subblock {
+    display: block;
+    padding: 15px;
+
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 15px;
+    width: 90px;
+    height: 22.59px;
+}
+
+.data {
+    font-size: 11px;
+    width: 90px;
+height: 23px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -523,7 +712,7 @@ height: 160px;
     /* end Nurana */
 }
 /* MOBILE */
-@media only screen and (max-width:992px) {
+@media only screen and (min-width:320px) and (max-width:992px) {
     /* Как смотреть кино– Alish */
 
 
