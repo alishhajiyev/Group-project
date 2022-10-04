@@ -276,7 +276,51 @@ h1 {
 /* end-Goychak */
 /* Программа курса – Sunay */
 
+.programme {
+    font-family: 'Roboto Slab';
+    width: 905px;
+    height: 93px;
+    font-weight: 700;
+    font-size: 55px;
+}
 
+.hehe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 1271px;
+    height: 1070px;
+    gap: 37px;
+}
+
+
+.flex-items {
+   width: 399px;
+   height: 328px;
+   box-shadow: 1px 1px 15px
+   rgba(0, 0, 0, 0.25);
+   background: #FFFFFF;
+   border-radius: 30px;
+
+}
+
+.imaj{
+width: 399px;
+height: 160px;
+}
+.parone{
+    width: 365px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.partwo{
+    width: 365px;
+    height: 63px;
+    font-size: 25px;
+    margin-left: 19px;
+}
 
 /* end-Sunay */
 /* Курс прошло уже 1616 человек–Nurana */
