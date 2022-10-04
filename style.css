@@ -1,12 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* Как смотреть кино– Alish */
+body {
+    margin: 0px;
+    padding-left: 122px;
+    padding-top: 21px;
+    font-family: 'Roboto', sans-serif;
+}
 
+#logo {
+    /* logo_mobile_black 1 */
+    width: 112px;
+    height: 66px;
+    margin-bottom: 70px;
+}
 
+/* Icons */
 
+#globe,
+#clock,
+#calendar {
+    width: 22px;
+    height: 21px;
+}
 
+/* paragraph next to icons */
+.icon-p {
 
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+/* div with icons */
+#icons {
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    width: 628px;
+    height: 190px;
+}
+
+#description {
+    width: 414px;
+    height: 62px;
+    font-size: 20px;
+}
+
+/* photos 1 */
+#photo1 {
+    position: absolute;
+    width: 304px;
+    height: 356px;
+    left: 890px;
+    top: 223px;
+}
+
+#ellipse1 {
+    position: absolute;
+    width: 274px;
+    height: 41px;
+    left: 921px;
+    top: 558px;
+    z-index: -1;
+}
+
+/* Notation block */
+#notation {
+    background: #1E4681;
+    border-radius: 5px;
+    width: 483.63px;
+    height: 200px;
+    padding: 20px 0px 10px 20px;
+    margin: 150px 0px 0px 280px;
+}
+
+#main-notation {
+    width: 430.59px;
+    height: 113px;
+    font-size: 25px;
+    font-family: 'Roboto Slab';
+
+}
+
+#author {
+    font-size: 20px;
+    width: 280.5px;
+    height: 45.64px;
+    position: relative;
+    left: 270px;
+}
+
+#main-notation, #author {
+    color: white;
+}
+
+/* About course */
+.container {
+    width: 365px;
+}
+
+#about-h2 {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 55px;
+    width: 365px;
+    height: 93px;
+    margin-bottom: 5px;
+}
+
+#description-of-course {
+    font-size: 24px;
+    width: 662px;
+    height: 374px;
+}
+
+#photo2 {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 973px;
+    top: 1060px;
+}
+
+#ellipse2 {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    left: 947px;
+    top: 1350px;
+    z-index: -1;
+}
+
+/* Photo block 3 */
+.info {
+    margin-right: 0px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#photo3 {
+    position: relative;
+    width: 232px;
+    height: 203px;
+    left: 0px;
+    top: 0px;
+}
+
+#ellipse3 {
+    position: relative;
+    width: 189px;
+    height: 32px;
+    left: 35px;
+    top: -20px;
+    z-index: -1;
+}
+
+/* Data block */
+#data-block {
+    width: 500px;
+    display: flex;
+    margin: 10px 0px 0px 100px;
+}
+
+.data-subblock {
+    display: block;
+    padding: 30px;
+
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 25px;
+    width: 150px;
+    height: 39px;
+}
+
+.data {
+    font-size: 18px;
+    width: 150px;
+    height: 39px;
+}
 
 /* end Alish */
 /* Формат занятий– Goychak */
+
+
+.format {
+    width: 667px;
+    height: 93px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 55px;
+    }
+    
+    .what {
+        width: 667px;
+        height: 93px;
+        margin-top: 100px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 55px;
+    }
+    
+    .head-three-1 {
+        width: 200px;
+        height: 39px;
+        font-weight: 700;
+        font-size: 25px;
+        color: #1E4681;
+    }
+    
+    .head-three-2 {
+        width: 214px;
+        height: 39px;
+        font-weight: 700;
+        font-size: 25px;
+        color: #1E4681; 
+    }
+    
+    .head-three-3 {  
+        width: 150px;
+        height: 39px;
+        font-weight: 700;
+        font-size: 25px;
+        color: #1E4681;
+    }
+    .p-coluumn-1 { 
+        width: 223px;
+        height: 39px;
+        font-size: 18px;
+    }
+    
+    .p-coluumn-2 {
+        width: 271px;
+        height: 109px;
+        font-size: 18px;
+    }
+    
+    .p-coluumn-3 {
+        width: 245px;
+        height: 39px;
+        font-size: 18px;
+    }
+    
+    .unorder {
+        width: 662px;
+        height: 374px;
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    .first-division {
+        width: 975px;
+        height: 331px;
+        margin-top: 140px;
+        display: flex;
+    }
+    .block{
+        display: block;
+        margin-right: 100px;
+    }
 
 
 
@@ -17,17 +280,15 @@
 
 /* end-Sunay */
 /* Курс прошло уже 1616 человек–Nurana */
-.grey{
+.grey {
     height: 780px;
     width: 1440px;
     top: 4625px;
+
     left: -1px;
     background-color: #EFEFEF;
     position: absolute;
 }
 
-
-
-
-
 /* end Nurana */
+
