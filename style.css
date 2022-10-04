@@ -194,6 +194,7 @@ h1 {
 /* end Alish */
 /* Формат занятий– Goychak */
 
+
 .format {
   
     width: 667px;
@@ -370,21 +371,11 @@ h1 {
     height: 780px;
     width: 1440px;
     top: 4625px;
-<<<<<<< HEAD
+
     left: -1px;
     background-color: #EFEFEF;
     position: absolute;
 }
 
-
-=======
-    d-color: #EFEFEF;
-
-}
-
-
-
-
-
 /* end Nurana */
->>>>>>> main
+
