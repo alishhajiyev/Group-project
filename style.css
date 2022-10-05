@@ -674,11 +674,48 @@ h1{
     /* Программа курса – Sunay */
 
 
-
-
-
-
-
+    .programme {
+        font-family: 'Roboto Slab';
+        width: 524.15px;
+        height: 53.86px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    
+    .hehe{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 1271px;
+        height: 1070px;
+        gap: 37px;
+    }
+    
+    
+    .flex-items {
+       width: 231.09px;
+       height: 189.97px;
+       box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+       border-radius: 17.375px;
+    }
+    
+    .imaj{
+        width: 231.09px;
+        height: 92.67px;
+    }
+    .parone{
+        width: 211.4px;
+        height: 22.59px;
+        font-weight: 700;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    .partwo{
+        width: 211.4px;
+        height: 36.49px;
+        font-size: 14px;
+        margin-left: 19px;
+    }
 
 
     /* end-Sunay */
@@ -884,8 +921,48 @@ height: 165.89px;
     /* end-Goychak */
     /* Программа курса – Sunay */
 
+    .programme {
+        font-family: 'Roboto Slab';
+        width: 308px;
+        height: 43px;
+        font-weight: 700;
+        font-size: 26px;
+    }
+    
+    .hehe{
+        display: flex;
+        flex-direction: column;
 
-
+        width: 1271px;
+        height: 1070px;
+        gap: 37px;
+    }
+    
+    
+    .flex-items {
+       width: 185.92px;
+       height: 152.84px;
+       box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+       border-radius: 13.9792px;
+    }
+    
+    .imaj{
+        width: 185.92px;
+        height: 74.56px;
+    }
+    .parone{
+        width: 170.08px;
+        height: 18.17px;
+        font-weight: 700;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .partwo{
+        width: 170.08px;
+        height: 29.36px;
+        font-size: 12px;
+        margin-left: 19px;
+    }
 
 
 
