@@ -203,15 +203,16 @@ h1 {
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 55px;
+    margin-bottom: 89px;
     }
     
     .what {
         width: 667px;
         height: 93px;
-        margin-top: 100px;
         font-family: 'Roboto Slab';
         font-weight: 700;
         font-size: 55px;
+        margin-bottom: 21 px;
     }
     
     .head-three-1 {
@@ -258,13 +259,12 @@ h1 {
     .unorder {
         width: 662px;
         height: 374px;
-        margin-top: 50px;
         font-size: 24px;
     }
     .first-division {
         width: 975px;
-        height: 331px;
-        margin-top: 90px;
+        height: 149px;
+        margin-bottom: 179px;
         display: flex;
     }
     .block{
@@ -665,6 +665,80 @@ h1{
 
 
 
+    .format {
+        width: 386.3px;
+        height: 53.86px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 51.55;
+        }
+        
+        .what {
+            width: 386.3px;
+            height: 53.86px;
+            font-family: 'Roboto Slab';
+            font-weight: 700;
+            font-size: 32px;
+            margin-bottom: 12.16px;
+        }
+        
+        .head-three-1 {
+            width: 86.88px;
+            height: 22.59px;
+            font-weight: 700;
+            font-size: 15px;
+            color: #1E4681;
+        }
+        
+        .head-three-2 {
+            width: 123.94px;
+            height: 22.59px;
+            font-weight: 700;
+            font-size: 15px;
+            color: #1E4681; 
+        }
+        
+        .head-three-3 {  
+            width: 86.88px;
+            height: 22.59px;
+            font-weight: 700;
+            font-size: 15px;
+            color: #1E4681;
+        }
+        .p-coluumn-1 { 
+            width: 153px;
+            height: 22px;
+            font-size: 11px;
+        }
+        
+        .p-coluumn-2 {
+            width: 172px;
+            height: 63px;
+            font-size: 11px;
+        }
+        
+        .p-coluumn-3 {
+            width: 141.9px;
+            height: 22.59px;
+            font-size: 11px;
+        }
+        
+        .unorder {
+            width: 383.41px;
+            height: 216.61px;
+            font-size: 14px;
+        }
+        .first-division {
+            width: 564.11px;
+            height: 86.42px;
+            margin-bottom: 103.55px;
+            display: flex;
+        }
+        .block{
+            display: block;
+            margin-right: 46px;
+        }
 
 
 
@@ -1027,10 +1101,82 @@ height: 165.89px;
     /* Формат занятий– Goychak */
 
 
-
-
-
-
+    .format {
+        width: 310.8px;
+        height: 43.34px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 26px;
+        margin-bottom: 16.66px;
+        }
+        
+        .what {
+            width: 310.8px;
+            height: 43.34px;
+            font-family: 'Roboto Slab';
+            font-weight: 700;
+            font-size: 26px;
+            margin-bottom: 9.66px;
+        }
+        
+        .head-three-1 {
+            width: 69.9px;
+            height: 18.17px;
+            font-weight: 700;
+            font-size: 12px;
+            color: #1E4681;
+        }
+        
+        .head-three-2 {
+            width: 99.72px;
+            height: 18.17px;
+            font-weight: 700;
+            font-size: 12px;
+            color: #1E4681; 
+        }
+        
+        .head-three-3 {  
+            width: 69.9px;
+            height: 18.17px;
+            font-weight: 700;
+            font-size: 12px;
+            color: #1E4681;
+        }
+        .p-coluumn-1 { 
+            width: 180px;
+            height: 48px;
+            font-size: 10px;
+        }
+        
+        .p-coluumn-2 {
+            width: 165px;
+            height: 51px;
+            font-size: 10px;
+        }
+        
+        .p-coluumn-3 {
+            width: 159px;
+            height: 31px;
+            font-size: 10px;
+        }
+        
+        .unorder {
+            width: 299px;
+            height: 174px;
+            font-size: 12px;
+        }
+        .first-division {
+            width: 180px;
+            height: 216px;
+            margin-bottom: 73px;
+            display: flex;
+            flex-direction: column;
+        
+        }
+        .block{
+            display: block;
+        
+        }
 
     /* end-Goychak */
     /* Программа курса – Sunay */
