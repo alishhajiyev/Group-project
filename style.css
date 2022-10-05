@@ -971,17 +971,17 @@ h1{
 #photo1 {
     position: absolute;
     width: 141.66px;
-height: 165.89px;
-    left: 550px;
-    top: 165px;
+    height: 165.89px;
+    left: 201px;
+    top: 254px;
 }
 
 #ellipse1 {
     position: absolute;
     width: 127.68px;
     height: 19.1px;
-    left: 568px;
-    top: 355px;
+    left: 215px;
+    top: 410px;
     z-index: -1;
 }
 
@@ -992,7 +992,7 @@ height: 165.89px;
     width: 225.36px;
     height: 93.19px;
     padding: 10px 20px 5px 15px;
-    margin: 100px 0px 0px 180px;
+    margin: 203px 0px 0px 2px;
     box-sizing: border-box;
 }
 
@@ -1001,6 +1001,7 @@ height: 165.89px;
     height: 52.65px;
     font-size: 11px;
     font-family: 'Roboto Slab';
+    margin-top: 5px;
 
 }
 
@@ -1009,7 +1010,8 @@ height: 165.89px;
     width: 130.7px;
     height: 21.27px;
     position: relative;
-    left: 270px;
+    left: 87px;
+    bottom: 10px;
 }
 
 #main-notation, #author {
@@ -1019,7 +1021,7 @@ height: 165.89px;
 /* About course */
 .container {
     width: 365px;
-    margin-top: 45px;
+    margin-top: 75px;
 }
 
 #about-h2 {
@@ -1041,27 +1043,28 @@ height: 165.89px;
     position: absolute;
     width: 146.32px;
     height: 146.78px;
-    left: 555px;
-    top: 619px;
+    left: 113.12px;
+    top: 918px;
 }
 
 #ellipse2 {
     position: absolute;
     width: 170.55px;
     height: 27.49px;
-    left: 540px;
-    top: 784px;
+    left: 101px;
+    top: 1050.8px;
     z-index: -1;
 }
 
 /* Photo block 3 */
 .info {
     margin-right: 0px;
-    width: 150px;
-    height: 150px;
+    width: 280px;
     display: flex;
 }
-
+#photo-block3{
+    display: none;
+}
 #photo3 {
     display: none;
 }
@@ -1072,15 +1075,17 @@ height: 165.89px;
 
 /* Data block */
 #data-block {
-    width: 500px;
+    width: 280px;
+    height: 200px;
     display: flex;
-    margin: 10px 0px 0px 67px;
+    flex-flow: row wrap;
+    margin: 230px 0px 0px 0px;
 }
 /*  */
 .data-subblock {
     display: block;
     padding: 15px;
-
+    margin-top: 0px;
 }
 
 .bold {
@@ -1088,6 +1093,7 @@ height: 165.89px;
     font-size: 12px;
     width: 70px;
     height: 18px;
+    margin-top: 0px;
 }
 
 .data {
