@@ -683,7 +683,158 @@ h1{
 
     /* end-Sunay */
     /* Курс прошло уже 1616 человек–Nurana */
-
+    #grey{
+        width: 783px;
+        height: 451.75px;
+        margin-left: 1px;
+        margin-top: 121px;
+        background: #EFEFEF;
+        padding-top: 91px;
+        padding-bottom: 111px;
+        margin-left: -70px;
+    }
+    #celovek{
+        margin: 50px 190px 19px 70px;
+        width: 571.64px;
+        height: 53.86px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 32px;
+    }
+    #white{
+        width: 458.12px;
+        height: 261.2px;
+        margin: 19px 302px 64px 72px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 23px 26px 28px 26px;
+    }
+    #text{
+        font-size: 12px;
+        width: 405.42px;
+        height: 117.57px;
+    }
+    #img1{
+        width: 110.04px;
+        height: 97.88px;
+        margin: 10px 30px 29px 26px;
+    }
+    #ekaterina{
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 17px;
+        width: 204.45px;
+        height: 34.17px;
+        margin: 28px 0px 0px 17px;
+    }
+    #div{
+        display: flex;
+    }
+    #fb{
+        width: 18.53px;
+        height: 17.95px;
+        margin-left: 30px;
+    }
+    #ekaterinablock{
+        display: flex;
+        flex-direction: column;
+    }
+    #lightblue {
+        width: 834px;
+        height: 451.75px;
+        background-color: #9DC9C8;
+        margin-top: 0px;
+        padding-top: 103px;
+        padding-left: 70px;
+        box-sizing: border-box;
+        margin-left: -122px;
+    }
+    #september{
+        font-weight: 700;
+        font-size: 32px;
+        width: 525.88px;
+        height: 38.23px;
+    }
+    #price{
+        font-size: 14px;
+        width: 98.46px;
+        height: 18.53px;
+        margin-bottom: 0px;
+    }
+    #rubl{
+        width: 278.58px;
+        height: 104.83px;
+        font-weight: 400;
+        font-size: 46px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .td1{
+        width: 190px;
+        height: 18.53px;
+        padding-bottom: 5px;
+        padding-right: 70px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .td2{
+        width: 170.28px;
+        height: 40.54px;
+        font-size: 15px;
+    }
+    #black{
+        width: 834px;
+        height: 225.88px;
+        background: #000000;
+        margin-top: -20px;
+        margin-bottom: 50px;
+        margin-left: -122px;
+        box-sizing: border-box;
+    }
+    #hehe{
+        width: 66.6px;
+        height: 39.38px;
+        margin-left: 122px;
+        margin-top: 28px;
+        margin-bottom: 17px
+    }
+    #image{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 122px ;
+    }
+    .facebook{
+        width: 19.11px;
+        height: 19.11px;
+        margin-right: 18px;
+    }
+    .mobile{
+        width: 15.64px;
+        height: 15.64px;
+        margin-right: 10px;
+    }
+    #image2 {
+        color: white;
+        margin-left: 200px;
+        margin-top: -100px;
+    }
+    .xexe{
+        display: flex;
+        align-items: center;
+        margin-left: 400px;
+        margin-top: -5px ;
+    
+    }
+    #end{
+        margin-top: 60px;
+        margin-left: 122px;
+        width: 180px;
+        height: 23.17px;
+        color: white;
+    }
+    
 
 
 
