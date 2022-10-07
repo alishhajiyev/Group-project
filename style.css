@@ -748,16 +748,204 @@ h1{
     /* Программа курса – Sunay */
 
 
-
-
-
-
-
+    .programme {
+        font-family: 'Roboto Slab';
+        width: 524.15px;
+        height: 53.86px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    
+    .hehe{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 1271px;
+        height: 1070px;
+        gap: 37px;
+    }
+    
+    
+    .flex-items {
+       width: 231.09px;
+       height: 189.97px;
+       box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+       border-radius: 17.375px;
+    }
+    
+    .imaj{
+        width: 231.09px;
+        height: 92.67px;
+    }
+    .parone{
+        width: 211.4px;
+        height: 22.59px;
+        font-weight: 700;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    .partwo{
+        width: 211.4px;
+        height: 36.49px;
+        font-size: 14px;
+        margin-left: 19px;
+    }
 
 
     /* end-Sunay */
     /* Курс прошло уже 1616 человек–Nurana */
-
+    #grey{
+        width: 783px;
+        height: 451.75px;
+        margin-left: 1px;
+        margin-top: 121px;
+        background: #EFEFEF;
+        padding-top: 91px;
+        padding-bottom: 111px;
+        margin-left: -70px;
+    }
+    #celovek{
+        margin: 50px 190px 19px 70px;
+        width: 571.64px;
+        height: 53.86px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 32px;
+    }
+    #white{
+        width: 458.12px;
+        height: 261.2px;
+        margin: 19px 302px 64px 72px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 23px 26px 28px 26px;
+    }
+    #text{
+        font-size: 12px;
+        width: 405.42px;
+        height: 117.57px;
+    }
+    #img1{
+        width: 110.04px;
+        height: 97.88px;
+        margin: 10px 30px 29px 26px;
+    }
+    #ekaterina{
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 17px;
+        width: 204.45px;
+        height: 34.17px;
+        margin: 28px 0px 0px 17px;
+    }
+    #div{
+        display: flex;
+    }
+    #fb{
+        width: 18.53px;
+        height: 17.95px;
+        margin-left: 30px;
+    }
+    #ekaterinablock{
+        display: flex;
+        flex-direction: column;
+    }
+    #lightblue {
+        width: 834px;
+        height: 451.75px;
+        background-color: #9DC9C8;
+        margin-top: 0px;
+        padding-top: 103px;
+        padding-left: 70px;
+        box-sizing: border-box;
+        margin-left: -122px;
+    }
+    #september{
+        font-weight: 700;
+        font-size: 32px;
+        width: 525.88px;
+        height: 38.23px;
+    }
+    #price{
+        font-size: 14px;
+        width: 98.46px;
+        height: 18.53px;
+        margin-bottom: 0px;
+    }
+    #rubl{
+        width: 278.58px;
+        height: 104.83px;
+        font-weight: 400;
+        font-size: 46px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .td1{
+        width: 190px;
+        height: 18.53px;
+        padding-bottom: 5px;
+        padding-right: 70px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .td2{
+        width: 170.28px;
+        height: 40.54px;
+        font-size: 15px;
+    }
+    #black{
+        width: 834px;
+        height: 225.88px;
+        background: #000000;
+        margin-top: -20px;
+        margin-bottom: 50px;
+        margin-left: -122px;
+        box-sizing: border-box;
+    }
+    #hehe{
+        width: 66.6px;
+        height: 39.38px;
+        margin-left: 122px;
+        margin-top: 28px;
+        margin-bottom: 17px
+    }
+    #image{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 122px ;
+    }
+    .facebook{
+        width: 19.11px;
+        height: 19.11px;
+        margin-right: 18px;
+    }
+    .mobile{
+        width: 15.64px;
+        height: 15.64px;
+        margin-right: 10px;
+    }
+    #image2 {
+        color: white;
+        margin-left: 200px;
+        margin-top: -100px;
+    }
+    .xexe{
+        display: flex;
+        align-items: center;
+        margin-left: 400px;
+        margin-top: -5px ;
+    
+    }
+    #end{
+        margin-top: 60px;
+        margin-left: 122px;
+        width: 180px;
+        height: 23.17px;
+        color: white;
+    }
+    
 
 
 
@@ -820,17 +1008,17 @@ h1{
 #photo1 {
     position: absolute;
     width: 141.66px;
-height: 165.89px;
-    left: 550px;
-    top: 165px;
+    height: 165.89px;
+    left: 201px;
+    top: 254px;
 }
 
 #ellipse1 {
     position: absolute;
     width: 127.68px;
     height: 19.1px;
-    left: 568px;
-    top: 355px;
+    left: 215px;
+    top: 410px;
     z-index: -1;
 }
 
@@ -841,7 +1029,7 @@ height: 165.89px;
     width: 225.36px;
     height: 93.19px;
     padding: 10px 20px 5px 15px;
-    margin: 100px 0px 0px 180px;
+    margin: 203px 0px 0px 2px;
     box-sizing: border-box;
 }
 
@@ -850,6 +1038,7 @@ height: 165.89px;
     height: 52.65px;
     font-size: 11px;
     font-family: 'Roboto Slab';
+    margin-top: 5px;
 
 }
 
@@ -858,7 +1047,8 @@ height: 165.89px;
     width: 130.7px;
     height: 21.27px;
     position: relative;
-    left: 270px;
+    left: 87px;
+    bottom: 10px;
 }
 
 #main-notation, #author {
@@ -868,7 +1058,7 @@ height: 165.89px;
 /* About course */
 .container {
     width: 365px;
-    margin-top: 45px;
+    margin-top: 75px;
 }
 
 #about-h2 {
@@ -890,27 +1080,28 @@ height: 165.89px;
     position: absolute;
     width: 146.32px;
     height: 146.78px;
-    left: 555px;
-    top: 619px;
+    left: 113.12px;
+    top: 918px;
 }
 
 #ellipse2 {
     position: absolute;
     width: 170.55px;
     height: 27.49px;
-    left: 540px;
-    top: 784px;
+    left: 101px;
+    top: 1050.8px;
     z-index: -1;
 }
 
 /* Photo block 3 */
 .info {
     margin-right: 0px;
-    width: 150px;
-    height: 150px;
+    width: 280px;
     display: flex;
 }
-
+#photo-block3{
+    display: none;
+}
 #photo3 {
     display: none;
 }
@@ -921,15 +1112,17 @@ height: 165.89px;
 
 /* Data block */
 #data-block {
-    width: 500px;
+    width: 280px;
+    height: 200px;
     display: flex;
-    margin: 10px 0px 0px 67px;
+    flex-flow: row wrap;
+    margin: 230px 0px 0px 0px;
 }
 /*  */
 .data-subblock {
     display: block;
     padding: 15px;
-
+    margin-top: 0px;
 }
 
 .bold {
@@ -937,8 +1130,9 @@ height: 165.89px;
     font-size: 12px;
     width: 70px;
     height: 18px;
+    margin-top: 0px;
 }
-
+ 
 .data {
     font-size: 10px;
     width: 86px;
@@ -1030,20 +1224,220 @@ height: 165.89px;
     /* end-Goychak */
     /* Программа курса – Sunay */
 
+    .programme {
+        font-family: 'Roboto Slab';
+        width: 308px;
+        height: 43px;
+        font-weight: 700;
+        font-size: 26px;
+    }
+    
+    .hehe{
+        display: flex;
+        flex-direction: column;
 
-
+        width: 1271px;
+        height: 1070px;
+        gap: 37px;
+    }
+    
+    
+    .flex-items {
+       width: 185.92px;
+       height: 152.84px;
+       box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+       border-radius: 13.9792px;
+    }
+    
+    .imaj{
+        width: 185.92px;
+        height: 74.56px;
+    }
+    .parone{
+        width: 170.08px;
+        height: 18.17px;
+        font-weight: 700;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .partwo{
+        width: 170.08px;
+        height: 29.36px;
+        font-size: 12px;
+        margin-left: 19px;
+    }
 
 
 
     /* end-Sunay */
     /* Курс прошло уже 1616 человек–Nurana */
+    #grey{
+        width: 376px;
+        height: 423px;
+        margin-left: 1px;
+        margin-top: 121px;
+        background: #EFEFEF;
+        padding-top: 91px;
+        padding-bottom: 111px;
+        margin-left: -70px;
+        padding-left: 20px;
+    }
+    #celovek{
+        margin: 35px 83px 15px 40px;
+        width: 280px;
+        height: 69px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 26px;
+    }
+    #white{
+        width: 250px;
+        height: 248px;
+        margin: 11px 32px 53px 36px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 18px 30px 39px 21px;
+    }
+    #text{
+        width: 250px;
+        height: 111.01px;
+        font-size: 10px;;
+    }
+    #img1{
+        width: 80px;
+        height: 84px;
+        margin: 21px 13px;
+    }
+    #ekaterina{
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 14px;
+        width: 164.49px;
+        height: 32.73px;
+        margin: 39px 0px 0px 6px;
+    }
+    #div{
+        display: flex;
+    }
+    #fb{
+        width: 14.91px;
+        height: 17.2px;
+        margin-left: 6px;
+    }
+    #ekaterinablock{
+        display: flex;
+        flex-direction: column;
+    }
+    #lightblue {
+        width: 450px;
+        height: 430px;
+        background-color: #9DC9C8;
+        margin-top: 0px;
+        padding-top: 103px;
+        padding-left: 70px;
+        box-sizing: border-box;
+        margin-left: -122px;
+        padding-left: 20px;
+    }
+    #september{
+        font-weight: 700;
+        font-size: 26px;
+        width: 224px;
+        margin-top: -30px;
+        margin-left: 80px;
+        height: 63px;
+    }
+    #price{
+        width: 79.22px;
+        height: 14.91px;
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-left: 80px;
+    }
+    #rubl{
+        width: 224.13px;
+        height: 84.34px;
+        font-weight: 400;
+        font-size: 37px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        margin-left: 80px;
+    }
+    .td1{
+        width: 300px;
+        height: 10px;
+        padding-bottom: 0px;
+        padding-right: 70px;
+        margin-top: 0px;
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 70px;
+    }
+    .td2{
+        width: 190px;
+        height: 110px;
+        font-size: 10px;
+        padding-left: 70px;
+        margin-bottom: 90px;
+    }
+    #black{
+        width: 450px;
+        height: 251px;
+        background: #000000;
+        margin-top: -20px;
+        margin-bottom: 50px;
+        margin-left: -122px;
+        box-sizing: border-box;
+    }
+    #hehe{
+        width: 53.59px;
+        height: 31.69px;
+        margin-left: 122px;
+        margin-top: 28px;
+        margin-bottom: 17px
+    }
+    #image{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 122px ;
+    }
+    .facebook{
+        width: 15.38px;
+        height: 15.38px;
+        margin-right: 18px;
+    }
+    .mobile{
+        width: 12.58px;
+        height: 12.58px;
+        margin-right: 10px;
+    }
+    #image2 {
+        color: white;
+        margin-left: 200px;
+        margin-top: -100px;
+    }
+    .xexe{
+        display: flex;
+        margin-left: -80px;
+        font-size: 12px;
 
-
-
-
-
-
-
-    
+    }
+    #xexe{
+        margin-top: 130px;
+    }
+    #mobile{
+        width: 300px;
+        height: 41.01px;
+    }
+    #end{
+        margin-top: 70px;
+        margin-left: 122px;
+        width: 141px;
+        height: 19px;
+        font-size: 10px;
+        color: white;
+    }
     /* end Nurana */
 }
