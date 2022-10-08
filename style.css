@@ -209,7 +209,7 @@ h1 {
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 55px;
-    margin-bottom: 21 px;
+    margin-bottom: 21px;
 }
 
 .head-three-1 {
@@ -387,6 +387,7 @@ height: 160px;
     margin-left: -122px;
 }
 #september{
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 55px;
     width: 908px;
@@ -841,14 +842,14 @@ h1{
     flex-direction: column;
 }
 #lightblue {
-    width: 834px;
+    width: 783px;
     height: 451.75px;
     background-color: #9DC9C8;
     margin-top: 0px;
     padding-top: 103px;
     padding-left: 70px;
     box-sizing: border-box;
-    margin-left: -122px;
+    margin-left: -70px;
 }
 #september{
     font-weight: 700;
