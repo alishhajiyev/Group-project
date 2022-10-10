@@ -4,9 +4,12 @@
 /* Как смотреть кино– Alish */
 body {
     margin: 0px;
-    padding-left: 122px;
     padding-top: 21px;
     font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    width: 86%;
+    margin: auto;
 }
 
 #logo {
@@ -44,30 +47,30 @@ h1 {
     font-size: 80px;
     font-family: 'Roboto Slab', serif;
     margin: 0px;
-    width: 628px;
-    height: 190px;
+    width: 70%;
+    /* height: 190px; */
 }
 
 #description {
-    width: 414px;
-    height: 62px;
+    width: 50%;
+    /* height: 62px; */
     font-size: 20px;
 }
 
 /* photos 1 */
 #photo1 {
     position: absolute;
-    width: 304px;
+    width: 25%;
     height: 356px;
-    left: 890px;
+    right: 150px;
     top: 223px;
 }
 
 #ellipse1 {
     position: absolute;
-    width: 274px;
+    width: 25%;
     height: 41px;
-    left: 921px;
+    right: 140px;
     top: 558px;
     z-index: -1;
 }
@@ -76,14 +79,14 @@ h1 {
 #notation {
     background: #1E4681;
     border-radius: 5px;
-    width: 483.63px;
+    width: 40%;
     height: 200px;
     padding: 20px 0px 10px 20px;
     margin: 150px 0px 0px 280px;
 }
 
 #main-notation {
-    width: 430.59px;
+    /* width: 90%; */
     height: 113px;
     font-size: 25px;
     font-family: 'Roboto Slab';
@@ -91,7 +94,7 @@ h1 {
 
 #author {
     font-size: 20px;
-    width: 280.5px;
+    width: 20%;
     height: 45.64px;
     position: relative;
     left: 270px;
@@ -103,7 +106,7 @@ h1 {
 
 /* About course */
 .container {
-    width: 365px;
+    width: 80%;
     margin-top: 155px;
 }
 
@@ -111,22 +114,22 @@ h1 {
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 55px;
-    width: 365px;
+    width: 50%;
     height: 93px;
     margin-bottom: 5px;
 }
 
 #description-of-course {
     font-size: 24px;
-    width: 662px;
+    width: 78%;
     height: 374px;
 }
 
 #photo2 {
     position: absolute;
-    width: 314px;
+    width: 25%;
     height: 315px;
-    left: 973px;
+    right: 150px;
     top: 1150px;
 }
 
@@ -134,7 +137,7 @@ h1 {
     position: absolute;
     width: 366px;
     height: 59px;
-    left: 947px;
+    right: 140px;
     top: 1440px;
     z-index: -1;
 }
@@ -142,22 +145,24 @@ h1 {
 /* Photo block 3 */
 .info {
     margin-right: 0px;
-    width: 300px;
+    width: 90%;
     height: 300px;
     display: flex;
 }
-
+#photo-block3{
+    width: 30%;
+}
 #photo3 {
     position: relative;
-    width: 232px;
+    width: 100%;
     height: 203px;
-    left: 0px;
+    left: 15px;
     top: 0px;
 }
 
 #ellipse3 {
     position: relative;
-    width: 189px;
+    width: 100%;
     height: 32px;
     left: 35px;
     top: -20px;
@@ -166,28 +171,26 @@ h1 {
 
 /* Data block */
 #data-block {
-    width: 500px;
+    width: 30%;
     display: flex;
     margin: 10px 0px 0px 100px;
 }
 
 .data-subblock {
     display: block;
-    padding: 30px;
+    padding-right: 15px;
 
 }
 
 .bold {
     font-weight: 700;
     font-size: 25px;
-    width: 150px;
-    height: 39px;
+    width: 100%;
 }
 
 .data {
     font-size: 18px;
-    width: 150px;
-    height: 39px;
+    width: 100%;
 }
 
 /* end Alish */
@@ -195,17 +198,20 @@ h1 {
 
 
 .format {
-    width: 667px;
-    height: 93px;
+    width: 66%;
+    /* height: 93px; */
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 55px;
     margin-bottom: 89px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
     
 .what {
-    width: 667px;
-    height: 93px;
+    width: 66%;
+    /* height: 93px; */
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 55px;
@@ -213,60 +219,66 @@ h1 {
 }
 
 .head-three-1 {
-    width: 200px;
-    height: 39px;
+    /* width: 200px; */
+    /* height: 39px; */
     font-weight: 700;
     font-size: 25px;
     color: #1E4681;
+    flex: 1;
 }
 
 .head-three-2 {
-    width: 214px;
-    height: 39px;
+    /* width: 214px; */
+    /* height: 39px; */
     font-weight: 700;
     font-size: 25px;
     color: #1E4681; 
+    flex: 1;
 }
 
 .head-three-3 {  
-    width: 150px;
+    /* width: 150px; */
     height: 39px;
     font-weight: 700;
     font-size: 25px;
     color: #1E4681;
+    flex: 1;
 }
 .p-coluumn-1 { 
-    width: 223px;
-    height: 39px;
+    /* width: 223px; */
+    /* height: 39px; */
     font-size: 18px;
+    flex: 1;
 }
 
 .p-coluumn-2 {
-    width: 271px;
-    height: 109px;
+    /* width: 271px; */
+    /* height: 109px; */
     font-size: 18px;
+    flex: 1;
 }
 
 .p-coluumn-3 {
-    width: 245px;
+    /* width: 245px; */
     height: 39px;
     font-size: 18px;
+    flex: 1;
 }
 
 .unorder {
-    width: 662px;
-    height: 374px;
+    width: 60%;
+    /* height: 374px; */
     font-size: 24px;
 }
 .first-division {
-    width: 975px;
-    height: 149px;
-    margin-bottom: 179px;
+    width: 90%;
+    /* height: 149px; */
+    margin-bottom: 79px;
     display: flex;
 }
 .block{
     display: block;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 
@@ -276,8 +288,8 @@ h1 {
 
 .programme {
     font-family: 'Roboto Slab';
-    width: 905px;
-    height: 93px;
+    /* width: 905px; */
+    /* height: 93px; */
     font-weight: 700;
     font-size: 55px;
 }
@@ -286,35 +298,35 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 1271px;
+    width: 100%;
     height: 1070px;
-    gap: 37px;
+    gap: 3%;
 }
 
 
 .flex-items {
-   width: 399px;
+   width: 30%;
    height: 328px;
    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
    border-radius: 30px;
 }
 
 .imaj{
-width: 399px;
-height: 160px;
+width: 100%;
 }
 .parone{
-    width: 365px;
-    height: 39px;
+    width: 100%;
     font-weight: 700;
     font-size: 30px;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 .partwo{
-    width: 365px;
-    height: 63px;
+    width: 100%;
+    /* height: 63px; */
     font-size: 25px;
     margin-left: 19px;
+    margin-top:0px;
 }
 
 /* end-Sunay */
@@ -338,17 +350,18 @@ height: 160px;
     font-size: 55px;
 }
 #white{
-    width: 791px;
-    height: 451px;
-    margin: 34px 523px 111px 126px;
+    width: 50%;
+    /* height: 451px; */
+    margin: 34px 0px 111px 126px;
     background-color: white;
     border-radius: 30px;
     padding: 40px 46px 50px 45px;
 }
 #text{
     font-size: 20px;
-    width: 700px;
-    height: 203px;
+    width: 98%;
+    /* height: 203px; */
+    
 }
 #img1{
     width: 190px;
@@ -365,6 +378,7 @@ height: 160px;
 }
 #div{
     display: flex;
+    width: 50%;
 }
 #fb{
     width: 32px;
