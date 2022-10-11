@@ -523,12 +523,12 @@ body{
 
 h1{
     font-size: 46px;
-    width: 30%px;
+    width: 30%;
     height: 110.04px;
 }
 
 #description {
-    width: 15%px;
+    width: 15%;
     height: 36px;
     font-size: 12px;
 }
@@ -583,7 +583,7 @@ h1{
 
 /* About course */
 .container {
-    width: 90%px;
+    width: 90%;
     margin-top: 90px;
 }
 
@@ -955,7 +955,7 @@ width: 60%;
     height: 23.17px;
     color: white;
 }
-    
+}    
 
     /* end Nurana */
 
@@ -1444,4 +1444,6 @@ h1{
     height: 19px;
     font-size: 10px;
     color: white;
+}
+/* End- Nurana */
 }
