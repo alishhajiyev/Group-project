@@ -960,7 +960,7 @@ h1{
 body{
     padding-left: 35px;
     padding-top: 35px;
-    width: 375px;
+    width: 100%;
 }
 
 #logo{
@@ -991,30 +991,30 @@ body{
 
 h1{
     font-size: 37px;
-    width: 292.63px;
-    height: 88.53px;
+    width: 90%;
+    /* height: 88.53px; */
 }
 
 #description {
-    width: 212.4px;
-    height: 28.96px;
+    width: 100%;
+    /* height: 28.96px; */
     font-size: 10px;
 }
 
 /* photos 1 */
 #photo1 {
     position: absolute;
-    width: 141.66px;
+    width: 30%;
     height: 165.89px;
-    left: 201px;
+    right: 47px;
     top: 254px;
 }
 
 #ellipse1 {
     position: absolute;
-    width: 127.68px;
+    width: 30%;
     height: 19.1px;
-    left: 215px;
+    right: 47px;
     top: 410px;
     z-index: -1;
 }
@@ -1023,15 +1023,15 @@ h1{
 #notation {
     background: #1E4681;
     border-radius: 5px;
-    width: 225.36px;
+    width: 60%;
     height: 93.19px;
     padding: 10px 20px 5px 15px;
-    margin: 203px 0px 0px 2px;
+    margin: 80px 0px 0px 2px;
     box-sizing: border-box;
 }
 
 #main-notation {
-    width: 200.64px;
+    width: 90%;
     height: 52.65px;
     font-size: 11px;
     font-family: 'Roboto Slab';
@@ -1040,11 +1040,11 @@ h1{
 
 #author {
     font-size: 12px;
-    width: 130.7px;
+    width: 40%;
     height: 21.27px;
     position: relative;
-    left: 87px;
-    bottom: 10px;
+    left: 172px;
+    bottom: 16px;
 }
 
 #main-notation, #author {
@@ -1065,34 +1065,38 @@ h1{
     height: 43.34px;
     margin-bottom: 5px;
 }
+#description-block{
+    width: 90vw;
+}
 
 #description-of-course {
     font-size: 12px;
-    width: 308.47px;
-    height: 174.27px;
+    width: 80%;
+    margin-right: 0px;
+    /* height: 174.27px; */
 }
 
 #photo2 {
     position: absolute;
-    width: 146.32px;
+    width: 30%;
     height: 146.78px;
-    left: 113.12px;
-    top: 918px;
+    right: 110px;
+    top: 688px;
 }
 
 #ellipse2 {
     position: absolute;
-    width: 170.55px;
+    width: 30%;
     height: 27.49px;
-    left: 101px;
-    top: 1050.8px;
+    right: 110px;
+    top: 818px;
     z-index: -1;
 }
 
 /* Photo block 3 */
 .info {
     margin-right: 0px;
-    width: 280px;
+    width: 55%;
     height:380px;
     display: flex;
 }
@@ -1109,7 +1113,7 @@ h1{
 
 /* Data block */
 #data-block {
-    width: 280px;
+    width: 90%;
     height: 152px;
     display: flex;
     flex-flow: row wrap;
@@ -1118,7 +1122,7 @@ h1{
 /* ///////////// */
 .data-subblock {
     display: block;
-    padding: 15px;
+    padding: 0px;
     margin-top: 0px;
     margin: 0px;
     padding: 0px 20px 0px 0px;
@@ -1146,8 +1150,8 @@ h1{
 
 
 .format {
-    width: 310.8px;
-    height: 43.34px;
+    width: 90%;
+    /* height: 43.34px; */
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 26px;
@@ -1210,7 +1214,7 @@ h1{
     font-size: 12px;
 }
 .first-division {
-    width: 180px;
+    width: 60%;
     height: 216px;
     margin-bottom: 73px;
     display: flex;
