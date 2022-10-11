@@ -828,9 +828,9 @@ h1{
     padding: 23px 26px 28px 26px;
 }
 #text{
-    font-size: 12px;
+    font-size: 15px;
     width: 100%;
-    height: 117.57px;
+    height: 30%;
 }
 #img1{
     width: 110.04px;
@@ -870,17 +870,17 @@ h1{
 #september{
     font-weight: 700;
     font-size: 32px;
-    width: 525.88px;
+    width:50%;
     height: 38.23px;
 }
 #price{
     font-size: 14px;
-    width: 98.46px;
+    width: 50%;
     height: 18.53px;
     margin-bottom: 0px;
 }
 #rubl{
-    width: 278.58px;
+    width: 50%;
     height: 104.83px;
     font-weight: 400;
     font-size: 46px;
@@ -889,7 +889,7 @@ h1{
     margin-bottom: 5px;
 }
 .td1{
-    width: 190px;
+    width: 40%;
     height: 18.53px;
     padding-bottom: 5px;
     padding-right: 70px;
@@ -897,7 +897,7 @@ h1{
     font-weight: 500;
 }
 .td2{
-    width: 170.28px;
+    width: 40%;
     height: 40.54px;
     font-size: 15px;
 }
@@ -911,7 +911,7 @@ h1{
     box-sizing: border-box;
 }
 #hehe{
-    width: 66.6px;
+    width: 10%;
     height: 39.38px;
     margin-left: 122px;
     margin-top: 28px;
@@ -924,13 +924,13 @@ h1{
     margin-left: 122px ;
 }
 .facebook{
-    width: 19.11px;
-    height: 19.11px;
+    width: 3%;
+    height: 3%;
     margin-right: 18px;
 }
 .mobile{
-    width: 15.64px;
-    height: 15.64px;
+    width: 5%;
+    height: 5%;
     margin-right: 10px;
 }
 #image2 {
@@ -943,12 +943,15 @@ h1{
     align-items: center;
     margin-left: 400px;
     margin-top: -5px ;
+ .bye {
+width: 10%;
+}
 
 }
 #end{
     margin-top: 60px;
     margin-left: 122px;
-    width: 180px;
+    width: 50%;
     height: 23.17px;
     color: white;
 }
