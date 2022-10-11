@@ -332,7 +332,7 @@ width: 100%;
 /* end-Sunay */
 /* Курс прошло уже 1616 человек–Nurana */
 #grey{
-    width: 1440px;
+    width: 100%;
     height: 780px;
     margin-left: 1px;
     margin-top: 121px;
@@ -390,7 +390,7 @@ width: 100%;
     flex-direction: column;
 }
 #lightblue {
-    width: 1440px;
+    width: 100%;
     height: 780px;
     margin-left: 0px;
     background-color: #9DC9C8;
@@ -436,7 +436,7 @@ width: 100%;
     font-size: 18px;
 }
 #black{
-    width: 1440px;
+    width: 100%;
     height: 390px;
     background: #000000;
     margin-top: -20px;
@@ -497,7 +497,7 @@ body{
 }
 
 #logo{
-    width: 64.87px;
+    width: 10%;
     height: 38.23px;
 }
 
@@ -505,7 +505,7 @@ body{
 #globe,
 #clock,
 #calendar {
-    width: 12px;
+    width: 1%;
     height: 12px;
 }
 
@@ -523,12 +523,12 @@ body{
 
 h1{
     font-size: 46px;
-    width: 363.72px;
+    width: 30%px;
     height: 110.04px;
 }
 
 #description {
-    width: 264px;
+    width: 15%px;
     height: 36px;
     font-size: 12px;
 }
@@ -536,7 +536,7 @@ h1{
 /* photos 1 */
 #photo1 {
     position: absolute;
-    width: 176.07px;
+    width: 20%;
     height: 206.18px;
     left: 550px;
     top: 165px;
@@ -544,7 +544,7 @@ h1{
 
 #ellipse1 {
     position: absolute;
-    width: 158.69px;
+    width:20%;
     height: 23.75px;
     left: 568px;
     top: 355px;
@@ -555,7 +555,7 @@ h1{
 #notation {
     background: #1E4681;
     border-radius: 5px;
-    width: 280.11px;
+    width: 25%;
     height: 115.83px;
     padding: 10px 20px 5px 15px;
     margin: 100px 0px 0px 180px;
@@ -563,7 +563,7 @@ h1{
 }
 
 #main-notation {
-    width: 249.38px;
+    width: 85%;
     height: 65.45px;
     font-size: 14px;
     font-family: 'Roboto Slab';
@@ -571,7 +571,7 @@ h1{
 
 #author {
     font-size: 12px;
-    width: 162.46px;
+    width: 20%;
     height: 26.43px;
     position: relative;
     left: 270px;
@@ -583,7 +583,7 @@ h1{
 
 /* About course */
 .container {
-    width: 365px;
+    width: 90%px;
     margin-top: 90px;
 }
 
@@ -598,7 +598,7 @@ h1{
 
 #description-of-course {
     font-size: 14px;
-    width: 383.41px;
+    width: 65%;
     height: 216.61px;
 }
 
@@ -606,7 +606,7 @@ h1{
     position: absolute;
     width: 181.86px;
     height: 182.44px;
-    left: 545px;
+    right: 250px;
     top: 685px;
 }
 
@@ -614,7 +614,7 @@ h1{
     position: absolute;
     width: 211.98px;
     height: 34.17px;
-    left: 530px;
+    right: 250px;
     top: 849px;
     z-index: -1;
 }
@@ -646,7 +646,7 @@ h1{
 
 /* Data block */
 #data-block {
-    width: 500px;
+    width: 30%;
     display: flex;
     margin: 10px 0px 0px 67px;
 }
