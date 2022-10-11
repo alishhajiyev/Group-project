@@ -1102,7 +1102,7 @@ h1{
 .info {
     margin-right: 0px;
     width: 55%;
-    height:380px;
+    height:52px;
     display: flex;
 }
 #photo-block3{
@@ -1119,10 +1119,10 @@ h1{
 /* Data block */
 #data-block {
     width: 90%;
-    height: 152px;
+    height: 52px;
     display: flex;
     flex-flow: row wrap;
-    margin: 230px 0px 0px 0px;
+    margin: -185px 0px 0px 0px;
 }
 /* ///////////// */
 .data-subblock {
@@ -1214,7 +1214,7 @@ h1{
 }
 
 .unorder {
-    width: 299px;
+    width: 75%;
     height: 174px;
     font-size: 12px;
 }
@@ -1227,6 +1227,7 @@ h1{
 }
 .block{
     display: block;
+    width: 100%;
 }
 
     /* end-Goychak */
@@ -1244,34 +1245,35 @@ h1{
     display: flex;
     flex-direction: column;
     margin-left: 60px;
-    width: 100px;
+    width: 40%;
     height: 1391px;
     gap: 22px;
 }
 /* ///////////// */
 
 .flex-items {
-    width: 185.92px;
+    width: 100%;
     height: 152.84px;
     box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-    border-radius: 13.9792px;
+    border-radius: 15.9792px;
+    max-width: 208px;
 }
 
 .imaj{
-    width: 185.92px;
-    height: 74.56px;
+    width: 100%;
+    /* height: 74.56px; */
 }
 .parone{
-    width: 170.08px;
-    height: 18.17px;
+    width: 100%;
+    /* height: 18.17px; */
     font-weight: 700;
     font-size: 14px;
     margin-left: 20px;
     margin-top: 4px;
 }
 .partwo{
-    width: 170.08px;
-    height: 29.36px;
+    width: 100%;
+    /* height: 29.36px; */
     font-size: 12px;
     margin-left: 19px;
 }
