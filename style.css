@@ -622,24 +622,26 @@ h1{
 /* Photo block 3 */
 .info {
     margin-right: 0px;
-    width: 150px;
+    width: 90%;
     height: 150px;
     display: flex;
 }
-
+#photo-block3{
+    width: 30%;
+}
 #photo3 {
     position: relative;
-    width: 134.37px;
+    width: 100%;
     height: 117.57px;
-    left: 0px;
+    left: -10px;
     top: 0px;
 }
 
 #ellipse3 {
     position: relative;
-    width: 109.46px;
+    width: 100%;
     height: 18.53px;
-    left: 19px;
+    left: 9px;
     top: -14px;
     z-index: -1;
 }
@@ -648,7 +650,7 @@ h1{
 #data-block {
     width: 30%;
     display: flex;
-    margin: 10px 0px 0px 67px;
+    margin: 10px 0px 0px 0px;
 }
 
 .data-subblock {
@@ -659,13 +661,13 @@ h1{
 .bold {
     font-weight: 700;
     font-size: 15px;
-    width: 90px;
+    width: 100%;
     height: 22.59px;
 }
 
 .data {
     font-size: 11px;
-    width: 90px;
+    width: 100%;
     height: 23px;
 }
 /* end Alish */
@@ -673,7 +675,7 @@ h1{
 
 
 .format {
-    width: 386.3px;
+    width: 100%;
     height: 53.86px;
     font-family: 'Roboto Slab';
     font-weight: 700;
@@ -691,7 +693,7 @@ h1{
 }
 
 .head-three-1 {
-    width: 86.88px;
+    width: 33%;
     height: 22.59px;
     font-weight: 700;
     font-size: 15px;
@@ -699,7 +701,7 @@ h1{
 }
 
 .head-three-2 {
-    width: 123.94px;
+    width: 33%;
     height: 22.59px;
     font-weight: 700;
     font-size: 15px;
@@ -707,26 +709,26 @@ h1{
 }
 
 .head-three-3 {  
-    width: 86.88px;
+    width: 33%;
     height: 22.59px;
     font-weight: 700;
     font-size: 15px;
     color: #1E4681;
 }
 .p-coluumn-1 { 
-    width: 153px;
+    width: 70%;
     height: 22px;
     font-size: 11px;
 }
 
 .p-coluumn-2 {
-    width: 172px;
+    width: 70%;
     height: 63px;
     font-size: 11px;
 }
 
 .p-coluumn-3 {
-    width: 141.9px;
+    width: 70%;
     height: 22.59px;
     font-size: 11px;
 }
@@ -737,7 +739,7 @@ h1{
     font-size: 14px;
 }
 .first-division {
-    width: 564.11px;
+    width: 100%;
     height: 86.42px;
     margin-bottom: 103.55px;
     display: flex;
@@ -765,8 +767,8 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 737px;
-    height: 620px;
+    width: 90%;
+    height: 70%;
     gap: 21px;
     margin-left: -32px;
 }
@@ -800,7 +802,7 @@ h1{
 /* end-Sunay */
 /* Курс прошло уже 1616 человек–Nurana */
 #grey{
-    width: 783px;
+    width: 100%;
     height: 451.75px;
     margin-left: 1px;
     margin-top: 64px;
@@ -818,7 +820,7 @@ h1{
     font-size: 32px;
 }
 #white{
-    width: 458.12px;
+    width: 70%;
     height: 261.2px;
     margin: 19px 302px 64px 72px;
     background-color: white;
@@ -826,9 +828,9 @@ h1{
     padding: 23px 26px 28px 26px;
 }
 #text{
-    font-size: 12px;
-    width: 405.42px;
-    height: 117.57px;
+    font-size: 15px;
+    width: 100%;
+    height: 30%;
 }
 #img1{
     width: 110.04px;
@@ -856,7 +858,7 @@ h1{
     flex-direction: column;
 }
 #lightblue {
-    width: 783px;
+    width: 100%;
     height: 451.75px;
     background-color: #9DC9C8;
     margin-top: 0px;
@@ -868,17 +870,17 @@ h1{
 #september{
     font-weight: 700;
     font-size: 32px;
-    width: 525.88px;
+    width:50%;
     height: 38.23px;
 }
 #price{
     font-size: 14px;
-    width: 98.46px;
+    width: 50%;
     height: 18.53px;
     margin-bottom: 0px;
 }
 #rubl{
-    width: 278.58px;
+    width: 50%;
     height: 104.83px;
     font-weight: 400;
     font-size: 46px;
@@ -887,7 +889,7 @@ h1{
     margin-bottom: 5px;
 }
 .td1{
-    width: 190px;
+    width: 40%;
     height: 18.53px;
     padding-bottom: 5px;
     padding-right: 70px;
@@ -895,21 +897,21 @@ h1{
     font-weight: 500;
 }
 .td2{
-    width: 170.28px;
+    width: 40%;
     height: 40.54px;
     font-size: 15px;
 }
 #black{
-    width: 834px;
+    width: 100%;
     height: 225.88px;
     background: #000000;
     margin-top: -20px;
     margin-bottom: 50px;
-    margin-left: -122px;
+    margin-left: -70px;
     box-sizing: border-box;
 }
 #hehe{
-    width: 66.6px;
+    width: 10%;
     height: 39.38px;
     margin-left: 122px;
     margin-top: 28px;
@@ -922,13 +924,13 @@ h1{
     margin-left: 122px ;
 }
 .facebook{
-    width: 19.11px;
-    height: 19.11px;
+    width: 3%;
+    height: 3%;
     margin-right: 18px;
 }
 .mobile{
-    width: 15.64px;
-    height: 15.64px;
+    width: 5%;
+    height: 5%;
     margin-right: 10px;
 }
 #image2 {
@@ -941,19 +943,22 @@ h1{
     align-items: center;
     margin-left: 400px;
     margin-top: -5px ;
+}
 
+.bye {
+width: 60%;
 }
 #end{
     margin-top: 60px;
     margin-left: 122px;
-    width: 180px;
+    width: 50%;
     height: 23.17px;
     color: white;
 }
     
 
     /* end Nurana */
-}
+
 /* MOBILE */
 @media only screen and (min-width:320px) and (max-width:991px) {
     /* Как смотреть кино– Alish */
@@ -1435,6 +1440,4 @@ h1{
     height: 19px;
     font-size: 10px;
     color: white;
-}
-/* end Nurana */
 }
