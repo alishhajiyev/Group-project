@@ -1,1451 +1,702 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Как смотреть кино– Alish */
-body {
-    margin: 0px;
-    padding-top: 21px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.section-1 {
+    height: 980px;
+    box-sizing: border-box;
+}
+.container-1 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container-1 .first {
+    height: 100px;
+}
+.section-1 .first .black {
+    width: 60px;
+    height: 15px;
+    background-color: black;
+}
+.section-1 .second {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-1 .second .second-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-1 .second h1 {
+    font-size: 700;
+    font-size: 80px;
+    width: 80%;
+}
+.section-1 .second-first p {
+    width: 50%;
+    font-size: 20px;
+}
+.section-1 .second .second-first-top {
+    padding-top: 30px;
+    width: 80%;
+    display: flex;
+}
+.section-1 .second .second-first-top div {
+    display: flex;
+    width: 34%;
+}
+.section-1 .second .second-first-top div p {
+    font-size: 17px;
+}
+.section-1 .second .ellipse3 {
+    position: relative;
+    height: 410px;
+}
+.section-1 .image9 {
+    width: 100%;
+}
+ .section-1 .ellipse-gray3 {
+    width: 100%;     
+    position: absolute;
+    z-index: -1;
+   bottom: 13px;
+    
+}
+.section-1 .second .second-first-top img {
+   height: 20px;
+   margin-top:16px;
+   margin-right: 5px;
+}
+.section-1 .third {
+    height: 360px;
+}
+.section-1 .third .third-block {
+    height: 180px;
+    background-color: #1E4681;
+    width: 34%;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    padding: 4px;
+    margin-top: 90px;
+}
+.section-1 .third .ordinary {
+    display: flex;
+    justify-content: flex-end;
+}
+.section-2 {
+    width: 85%;
+    margin: auto;
+    height: 900px;
     font-family: 'Roboto', sans-serif;
 }
-.main-container{
-    width: 86%;
-    margin: auto;
-}
-
-#logo {
-    /* logo_mobile_black 1 */
-    width: 112px;
-    height: 66px;
-    margin-bottom: 70px;
-}
-
-/* Icons */
-
-#globe,
-#clock,
-#calendar {
-    width: 22px;
-    height: 21px;
-}
-
-/* paragraph next to icons */
-.icon-p {
-    font-size: 20px;
-    margin-right: 20px;
-    margin-left: 10px;
-}
-
-/* div with icons */
-#icons {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
-
 h1 {
-    font-weight: 700;
-    font-size: 80px;
-    font-family: 'Roboto Slab', serif;
-    margin: 0px;
-    width: 70%;
-    /* height: 190px; */
+    font-weight: 900;
+    font-size: 40px
 }
-
-#description {
-    width: 50%;
-    /* height: 62px; */
-    font-size: 20px;
-}
-
-/* photos 1 */
-#photo1 {
-    position: absolute;
-    width: 25%;
-    height: 356px;
-    right: 150px;
-    top: 223px;
-}
-
-#ellipse1 {
-    position: absolute;
-    width: 25%;
-    height: 41px;
-    right: 140px;
-    top: 558px;
-    z-index: -1;
-}
-
-/* Notation block */
-#notation {
-    background: #1E4681;
-    border-radius: 5px;
-    width: 40%;
-    height: 200px;
-    padding: 20px 0px 10px 20px;
-    margin: 150px 0px 0px 280px;
-}
-
-#main-notation {
-    /* width: 90%; */
-    height: 113px;
-    font-size: 25px;
-    font-family: 'Roboto Slab';
-}
-
-#author {
-    font-size: 20px;
-    width: 20%;
-    height: 45.64px;
-    position: relative;
-    left: 270px;
-}
-
-#main-notation, #author {
-    color: white;
-}
-
-/* About course */
-.container {
-    width: 80%;
-    margin-top: 155px;
-}
-
-#about-h2 {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 55px;
-    width: 50%;
-    height: 93px;
-    margin-bottom: 5px;
-}
-
-#description-of-course {
+.main-part {
+    display: flex;
+    justify-content: space-between;
     font-size: 24px;
-    width: 78%;
-    height: 374px;
+} 
+.main-p {
+    width: 50%;
 }
-
-#photo2 {
-    position: absolute;
-    width: 25%;
-    height: 315px;
-    right: 150px;
-    top: 1150px;
+.ellipse {          
+    position: relative;
+    height: 350px;
 }
-
-#ellipse2 {
+.image1 {
+    width: 100%;
+}
+.image2 {
+    width: 100%;     
     position: absolute;
-    width: 366px;
-    height: 59px;
-    right: 140px;
-    top: 1440px;
+    bottom: 15px;
     z-index: -1;
 }
-
-/* Photo block 3 */
-.info {
-    margin-right: 0px;
-    width: 90%;
-    height: 300px;
+.end-part {
+    width: 80%;
     display: flex;
-}
-#photo-block3{
-    width: 30%;
-}
-#photo3 {
-    position: relative;
-    width: 100%;
-    height: 203px;
-    left: 15px;
-    top: 0px;
-}
-
-#ellipse3 {
-    position: relative;
-    width: 100%;
-    height: 32px;
-    left: 35px;
-    top: -20px;
-    z-index: -1;
-}
-
-/* Data block */
-#data-block {
-    width: 30%;
-    display: flex;
-    margin: 10px 0px 0px 100px;
-}
-
-.data-subblock {
-    display: block;
-    padding-right: 15px;
-
-}
-
-.bold {
-    font-weight: 700;
-    font-size: 25px;
-    width: 100%;
-}
-
-.data {
+    justify-content: space-around;
+    margin-top: 80px;
+    font-weight: 400;
     font-size: 18px;
-    width: 100%;
 }
-
-/* end Alish */
-/* Формат занятий– Goychak */
-
-
-.format {
-    width: 66%;
-    /* height: 93px; */
-    font-family: 'Roboto Slab';
-    font-weight: 700;
+.ellipse2 {
+    position: relative;
+    height: 230px;
+}
+.image4 {
+   width: 100%;
+   position: absolute;
+   bottom: 10px;
+   z-index: -1;
+   left: 10px;
+}
+.section3 h1{
+    font-family: 'Roboto Slab', serif;
     font-size: 55px;
-    margin-bottom: 89px;
+    font-weight: 700;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.section3 h2{
+    color:#1E4681;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 700px;
+}
+.section3 .block{
     display: flex;
     justify-content: space-between;
     width: 90%;
 }
-    
-.what {
-    width: 66%;
-    /* height: 93px; */
-    font-family: 'Roboto Slab';
-    font-weight: 700;
+.section3 p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+}
+.section4{
+    width: 85%;
+    margin: auto; 
+}
+.section4 h1{
+    font-family: 'Roboto Slab', serif;
     font-size: 55px;
-    margin-bottom: 21px;
-}
-
-.head-three-1 {
-    /* width: 200px; */
-    /* height: 39px; */
     font-weight: 700;
-    font-size: 25px;
-    color: #1E4681;
-    flex: 1;
 }
-
-.head-three-2 {
-    /* width: 214px; */
-    /* height: 39px; */
-    font-weight: 700;
-    font-size: 25px;
-    color: #1E4681; 
-    flex: 1;
-}
-
-.head-three-3 {  
-    /* width: 150px; */
-    height: 39px;
-    font-weight: 700;
-    font-size: 25px;
-    color: #1E4681;
-    flex: 1;
-}
-.p-coluumn-1 { 
-    /* width: 223px; */
-    /* height: 39px; */
-    font-size: 18px;
-    flex: 1;
-}
-
-.p-coluumn-2 {
-    /* width: 271px; */
-    /* height: 109px; */
-    font-size: 18px;
-    flex: 1;
-}
-
-.p-coluumn-3 {
-    /* width: 245px; */
-    height: 39px;
-    font-size: 18px;
-    flex: 1;
-}
-
-.unorder {
-    width: 60%;
-    /* height: 374px; */
+.section4 ul{
+    font-weight: 400px;
     font-size: 24px;
+height: 374px;
+width: 662px;
 }
-.first-division {
-    width: 90%;
-    /* height: 149px; */
-    margin-bottom: 79px;
+
+.section-5 {
+    height: 1300px;
+    margin: 0;
+    padding: 0;
+}
+.container-5 {
+    width: 85%;
+    margin: auto;
+}
+.section-5 h1 {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.section-5 .bottom {
     display: flex;
-}
-.block{
-    display: block;
-    /* margin-right: 100px; */
-}
-
-
-
-/* end-Goychak */
-/* Программа курса – Sunay */
-
-.programme {
-    font-family: 'Roboto Slab';
-    /* width: 905px; */
-    /* height: 93px; */
-    font-weight: 700;
-    font-size: 55px;
-}
-
-.hehe{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    height: 900px;
     width: 100%;
-    height: 1070px;
+    flex-wrap: wrap;
     gap: 3%;
 }
-
-
-.flex-items {
-   width: 30%;
-   height: 328px;
-   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-   border-radius: 30px;
+.section-5 .bottom .main-div {
+    width: 28%;
+    border-radius: 10%;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
 }
-
-.imaj{
-width: 100%;
-}
-.parone{
-    width: 100%;
-    font-weight: 700;
-    font-size: 30px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-.partwo{
-    width: 100%;
-    /* height: 63px; */
-    font-size: 25px;
-    margin-left: 19px;
-    margin-top:0px;
-}
-
-/* end-Sunay */
-/* Курс прошло уже 1616 человек–Nurana */
-#grey{
-    width: 100%;
-    height: 780px;
-    margin-left: 1px;
-    margin-top: 121px;
-    background: #EFEFEF;
-    padding-top: 91px;
-    padding-bottom: 111px;
-    margin-left: -122px;
-}
-#celovek{
-    margin: 91px 331px 34px 122px;
-    width: 987px;
-    height: 93px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 55px;
-}
-#white{
-    width: 50%;
-    /* height: 451px; */
-    margin: 34px 0px 111px 126px;
-    background-color: white;
-    border-radius: 30px;
-    padding: 40px 46px 50px 45px;
-}
-#text{
-    font-size: 20px;
-    width: 98%;
-    /* height: 203px; */
-    
-}
-#img1{
-    width: 190px;
-    height: 169px;
-    margin: 10px 30px 29px 26px;
-}
-#ekaterina{
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 30px;
-    width: 353px;
-    height: 59px;
-    margin: 50px 0px 0px 30px;
-}
-#div{
-    display: flex;
-    width: 50%;
-}
-#fb{
-    width: 32px;
-    height: 31px;
-    margin-left: 30px;
-}
-#ekaterinablock{
+.section-5 .h-p {
     display: flex;
     flex-direction: column;
-}
-#lightblue {
+    justify-content: space-between;
+    height: 120px ;
     width: 100%;
-    height: 780px;
-    margin-left: 0px;
-    background-color: #9DC9C8;
-    margin-top: -20px;
-    padding-top: 179px;
-    padding-left: 122px;
-    box-sizing: border-box;
-    margin-left: -122px;
 }
-#september{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
+.section-5 .bottom img {
+width: 100%;
+height: 50%;
+}
+.section-5 .bottom  h3 {
+    padding-left: 10px;
+    font-size: 19px;
+}
+.section-5 .bottom p{
+    padding-left: 10px;
+}
+.section-6 {
+    margin: 0;
+    padding: 0;
+    background: rgba(239, 239, 239, 1);
+    ;
+}
+.container-6 {
+    width: 85%;
+    margin: auto;
+    height: 600px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-6 h1 {
     font-size: 55px;
-    width: 908px;
-    height: 66px;
+    font-weight: 700;
 }
-#price{
+.container-6 .text {
+    width:47%;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 15px;
+}
+.container-6 .text p {
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+.container-6 .text .text-bottom {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.container-6 .text .text-bottom-right {
+ padding: 15px 0 0 15px;
+}
+.section7{
+    height:  700px;
+    background-color: #9DC9C8;
+    font-family: 'Roboto', sans-serif;
+} 
+.container-7 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+}
+.section7 h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.section7 .second{
     font-size: 25px;
-    width: 170px;
-    height: 32px;
-    margin-bottom: 0px;
+    font-weight: 400;
+    margin-bottom: 0;
 }
-#rubl{
-    width: 481px;
-    height: 181px;
+.section7 .third{
     font-weight: 400;
     font-size: 80px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin-top: 0;
 }
-.td1{
-    width: 294px;
-    height: 32px; 
-    padding-bottom: 9px;
-    padding-right: 70px;
+.section7 .bottom{
+    display: flex;
+    width: 90%;
+}
+
+.section7 .left{
+    width: 35%;
+
+}
+.section7 .right{
+    width: 35%;
+}
+
+.section7 h2{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
 }
-.td2{
-    width: 322px;
-    height: 32px;
+.section7 .under{
     font-size: 18px;
+    font-weight: 400;
+    width: 60%;
 }
-#black{
-    width: 100%;
-    height: 390px;
-    background: #000000;
-    margin-top: -20px;
-    margin-bottom: 50px;
-    margin-left: -122px;
-}
-#hehe{
-    width: 115px;
-    height: 68px;
-    margin-left: 122px;
-    margin-top: 50px;
-    margin-bottom: 30px
-}
-#image{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 122px ;
-}
-.facebook{
-    width: 32px;
-    height: 32px;
-    margin-right: 18px;
-}
-.mobile{
-    width: 27px;
-    height: 27px;
-    margin-right: 10px;
-}
-#image2 {
-    color: white;
-    margin-left: 600px;
-    margin-top: -150px;
-}
-.xexe{
-    display: flex;
-    align-items: center;
-    margin-left: 400px;
-    margin-top: -5px ;
-
-}
-#end{
-    margin-top: 70px;
-    margin-left: 122px;
-    width: 230px;
-    height: 40px;
-    color: white;
+.section8{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
-/* end Nurana */
-
-
-/* TABLET */
-@media only screen and (min-width:992px) and (max-width:1280px) {
-    /* Как смотреть кино– Alish */
-body{
-    padding-left: 70px;
-}
-
-#logo{
-    width: 10%;
-    height: 38.23px;
-}
-
-/* Icons */
-#globe,
-#clock,
-#calendar {
-    width: 1%;
-    height: 12px;
-}
-
-/* paragraph next to icons */
-.icon-p {
-    font-size: 12px;
-    margin-right: 10px;
-    margin-left: 5px;
-}
-
-/* div with icons */
-#icons {
-    margin-top: 0px;
-}
-
-h1{
-    font-size: 46px;
-    width: 30%;
-    height: 110.04px;
-}
-
-#description {
-    width: 15%;
-    height: 36px;
-    font-size: 12px;
-}
-
-/* photos 1 */
-#photo1 {
-    position: absolute;
-    width: 20%;
-    height: 206.18px;
-    left: 550px;
-    top: 165px;
-}
-
-#ellipse1 {
-    position: absolute;
-    width:20%;
-    height: 23.75px;
-    left: 568px;
-    top: 355px;
-    z-index: -1;
-}
-
-/* Notation block */
-#notation {
-    background: #1E4681;
-    border-radius: 5px;
-    width: 25%;
-    height: 115.83px;
-    padding: 10px 20px 5px 15px;
-    margin: 100px 0px 0px 180px;
-    box-sizing: border-box;
-}
-
-#main-notation {
+.section8 .container{
     width: 85%;
-    height: 65.45px;
-    font-size: 14px;
-    font-family: 'Roboto Slab';
-}
-
-#author {
-    font-size: 12px;
-    width: 20%;
-    height: 26.43px;
-    position: relative;
-    left: 270px;
-}
-
-#main-notation, #author {
+    height: 300px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.section8 .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
-/* About course */
-.container {
-    width: 90%;
-    margin-top: 90px;
+.ig, .fb, .wk, .viber{
+    margin-right: 20px;
 }
-
-#about-h2 {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 32px;
-    width: 211.4px;
-    height: 53.86px;
-    margin-bottom: 5px;
+.section8 .top-left-image img{
+    height: 25px;
+    width: 25px;
 }
-
-#description-of-course {
-    font-size: 14px;
-    width: 65%;
-    height: 216.61px;
+.section8 .top-right {
+    height: 60px;
+font-size: 16px;
+width: 17%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
-
-#photo2 {
-    position: absolute;
-    width: 181.86px;
-    height: 182.44px;
-    right: 250px;
-    top: 685px;
+.section8 .bottom p {
+    margin: 0;
+    padding: 0;
 }
+    
 
-#ellipse2 {
-    position: absolute;
-    width: 211.98px;
-    height: 34.17px;
-    right: 250px;
-    top: 849px;
-    z-index: -1;
+@media screen and (min-width:992px) and (max-width:1279px) {
+
+    .section-1 {
+        height: 960px;
+       }
+     .section-1 .second-first-top p {
+        width: 80%;
+    }
+    .section-1 .second h1 {
+        width: 80%;
+        font-size: 60px;
+    }
+    .section-1 .second img {
+        margin-top: 70px;
+    }
+    .section-1 .second-first-bottom p {
+        width: 70%;
+    }
+    .section-1 .second .ellipse3 {
+        position: relative;
+        height: 460px;
+        
+    }
+    .section-1 .image9 {
+        width: 100%;
+    }
+     .section-1 .ellipse-gray3 {
+        width: 100%;     
+        position: absolute;
+        z-index: -1;
+       bottom: 16px;
+        
+    }
+    .section-1 .end-part {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .section-1 .third .third-block {
+        height: 160px;
+        background-color: #1E4681;
+        width: 50%;
+    }
+    .section-1 .third-block p {
+     font-size: 22px;
 }
+    .section-2 {
+    height: 500px;
+   }
+    .section-2 h1 {
+        font-size: 32px;
+    }
+   .section-2 .main-p {
+        font-size: 14px;
+    }
+    .section-2 .ellipse {
+        height: 210px;
+    }
+    .section-2 .image1 {
+        height: 180px;
+    }
+    .section-2 .end-part {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .section-2 .ellipse2 {
+        display: none;
+    }
+    .section-2 .bottom-p h3 {
+        font-size: 15px;
+    }
+    .section-2 .bottom-p p {
+        font-size: 11px;
+    }
+        .section3 .one {
+            font-size: 11px;
+            width: 60%;
+            
+        }
+        .section3 .two{
+         font-size: 11px;
+         width: 60%;
+        }
+        .section3 .three{
+            font-size: 11px;
+            width: 60%;
+        }
+        .section3 h1{
+            font-size: 32px;
+          }
+          .section3 h2{
+            font-size: 15px;
+          }
+          .section4 {
+            height: 300px;
+          }
+          .section4 h1{
+            font-size: 32px;
+          }
+          .section4 ul{
+            font-size: 14px;
+            width: 60%; 
+          }
+          .section-5 {
+            height: 1000px;
+        }
+        .section-5 h1 {
+            padding: 0;
+        }
+        .container-6 h1 {
+            font-size: 45px;
+            font-weight: 700;
+        }
+        .container-6 .text {
+            width:55%;
+    }
+         .container-6 .text p {
+       font-size: 12px;
+    }
+        .container-6 .text-bottom-right {
+        padding: 30px 0 0 15px;
+       }
+    .container-6 .text-bottom-right h2 {
+        font-size: 17px;
+    }
+       .section7 .bottom{
+        display: flex;
+        width: 90%;
+    }
+    .section7 h1 {
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .section7 .second {
+        font-size: 30px;
+    }
+    
+    .section7 .left{
+        width: 55%;
+    
+    }
+    .section7 .right{
+        width: 55%;
+    }
+    .section8 .top-right {
+        height: 60px;
+    font-size: 16px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    }
 
-/* Photo block 3 */
-.info {
-    margin-right: 0px;
-    width: 90%;
+@media screen and (min-width:320px) and (max-width:991px) {
+    .section-1 {
+        height: 1400px;
+       }
+       .section-1 .second h1 {
+        font-size: 700;
+        font-size: 50px;
+        width: 80%;
+    }
+    .section-1 .second .ellipse3 {
+        position: relative;
+        height: 340px;
+    }
+    .section-1 .second .ellipse3 {
+        position: relative;
+        height: 410px;
+    }
+    .section-1 .image9 {
+        height: 370px ;
+    }
+    .section-1 .second {
+        display: block;
+        height: 950px;
+    }
+    .section-1 .second .second-first-top div p {
+        font-size: 13px;
+        width: 70%;
+    }
+    .second-first-bottom p {
+        width: 70%;
+        font-size: 8px;
+    }
+    .section-1 .third .third-block {
+        height: 150px;
+        width: 70%;
+        height: 230px;
+        font-size: 15px;
+        background-color: white;
+    }
+    .section-1 .third .third-block p {
+        background-color: #1E4681;
+    }
+    .section-1 .third .ordinary {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .section-1 .third .normal {
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    .second-second {
+        display: flex;
+        justify-content: flex-end;
+        height: 400px;
+        margin-bottom: 60px;
+    }
+    .section-2 {
+    height: 950px;
+
+   }
+    .section-2 h1 {
+        font-size: 26px;
+    }
+    .main-part {
+        display: block;
+    }
+.main-p {
+    font-size: 18px;
+    width: 100%;
+}
+.ellipse {
+    width:30%;
+    margin: auto;
+    height: 176px;
+}
+.image1 {
     height: 150px;
     display: flex;
+    justify-content: center;
+    margin: auto;
 }
-#photo-block3{
-    width: 30%;
-}
-#photo3 {
-    position: relative;
-    width: 100%;
-    height: 117.57px;
-    left: -10px;
-    top: 0px;
-}
-
-#ellipse3 {
-    position: relative;
-    width: 100%;
-    height: 18.53px;
-    left: 9px;
-    top: -14px;
-    z-index: -1;
-}
-
-/* Data block */
-#data-block {
-    width: 30%;
-    display: flex;
-    margin: 10px 0px 0px 0px;
-}
-
-.data-subblock {
-    display: block;
-    padding: 15px;
-}
-
-.bold {
-    font-weight: 700;
-    font-size: 15px;
-    width: 100%;
-    height: 22.59px;
-}
-
-.data {
-    font-size: 11px;
-    width: 100%;
-    height: 23px;
-}
-/* end Alish */
-/* Формат занятий– Goychak */
-
-
-.format {
-    width: 100%;
-    height: 53.86px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 51.55px;
-}
-        
-.what {
-    width: 386.3px;
-    height: 53.86px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 12.16px;
-}
-
-.head-three-1 {
-    width: 33%;
-    height: 22.59px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #1E4681;
-}
-
-.head-three-2 {
-    width: 33%;
-    height: 22.59px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #1E4681; 
-}
-
-.head-three-3 {  
-    width: 33%;
-    height: 22.59px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #1E4681;
-}
-.p-coluumn-1 { 
-    width: 70%;
-    height: 22px;
-    font-size: 11px;
-}
-
-.p-coluumn-2 {
-    width: 70%;
-    height: 63px;
-    font-size: 11px;
-}
-
-.p-coluumn-3 {
-    width: 70%;
-    height: 22.59px;
-    font-size: 11px;
-}
-
-.unorder {
-    width: 383.41px;
-    height: 216.61px;
-    font-size: 14px;
-}
-.first-division {
-    width: 100%;
-    height: 86.42px;
-    margin-bottom: 103.55px;
-    display: flex;
-}
-.block{
-    display: block;
-    margin-right: 46px;
-}
-
-
-    
-/* end-Goychak */
-/* Программа курса – Sunay */
-
-
-.programme {
-    font-family: 'Roboto Slab';
-    width: 524.15px;
-    height: 53.86px;
-    font-weight: 700;
-    font-size: 32px;
-}
-/* Div-block */
-.hehe{
-    display: flex;
+.end-part {
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 90%;
-    height: 70%;
-    gap: 21px;
-    margin-left: -32px;
 }
-
-.flex-items {
-    width: 231.09px;
-    height: 189.97px;
-    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-    border-radius: 17.375px;
+.ellipse2 {
+    display: none;
 }
-
-.imaj{
-    width: 231.09px;
-    height: 92.67px;
+.bottom-p {
+    flex-basis: 34%;
 }
-.parone{
-    width: 211.4px;
-    height: 22.59px;
-    font-weight: 700;
-    font-size: 17px;
-    margin-left: 20px;
+.bottom-p h3 {
+    font-size: 12px;
 }
-.partwo{
-    width: 211.4px;
-    height: 36.49px;
-    font-size: 14px;
-    margin-left: 19px;
+.bottom-p p {
+    font-size: 10px;
 }
-
-
-/* end-Sunay */
-/* Курс прошло уже 1616 человек–Nurana */
-#grey{
-    width: 100%;
-    height: 451.75px;
-    margin-left: 1px;
-    margin-top: 64px;
-    background: #EFEFEF;
-    padding-top: 10px;
-    padding-bottom: 60px;
-    margin-left: -70px;
+   
+.section3 h1{
+    font-size: 26px;
 }
-#celovek{
-    margin: 50px 190px 19px 70px;
-    width: 571.64px;
-    height: 53.86px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 32px;
+.section3 h2{
+    font-size: 12px;
 }
-#white{
-    width: 70%;
-    height: 261.2px;
-    margin: 19px 302px 64px 72px;
-    background-color: white;
-    border-radius: 30px;
-    padding: 23px 26px 28px 26px;
+.section3 p{
+    font-size: 10px;
+    width:60% ;
 }
-#text{
-    font-size: 15px;
-    width: 100%;
-    height: 30%;
+.section4 {
+    height: 300px;
 }
-#img1{
-    width: 110.04px;
-    height: 97.88px;
-    margin: 10px 30px 29px 26px;
+.section4 h1{
+    font-size: 26px;
 }
-#ekaterina{
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 17px;
-    width: 204.45px;
-    height: 34.17px;
-    margin: 28px 0px 0px 17px;
+.section4 ul{
+    font-size: 12px;
+    width: 60%;
 }
-#div{
-    display: flex;
+.section-5 {
+    height: 3150px;
 }
-#fb{
-    width: 18.53px;
-    height: 17.95px;
-    margin-left: 30px;
+.container-5 .bottom {
+    display: block;
 }
-#ekaterinablock{
-    display: flex;
-    flex-direction: column;
-}
-#lightblue {
-    width: 100%;
-    height: 451.75px;
-    background-color: #9DC9C8;
-    margin-top: 0px;
-    padding-top: 103px;
-    padding-left: 70px;
-    box-sizing: border-box;
-    margin-left: -70px;
-}
-#september{
-    font-weight: 700;
-    font-size: 32px;
-    width:50%;
-    height: 38.23px;
-}
-#price{
-    font-size: 14px;
-    width: 50%;
-    height: 18.53px;
-    margin-bottom: 0px;
-}
-#rubl{
-    width: 50%;
-    height: 104.83px;
-    font-weight: 400;
-    font-size: 46px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-}
-.td1{
-    width: 40%;
-    height: 18.53px;
-    padding-bottom: 5px;
-    padding-right: 70px;
-    font-size: 19px;
-    font-weight: 500;
-}
-.td2{
-    width: 40%;
-    height: 40.54px;
+.section-5 .bottom  h3 {
     font-size: 15px;
 }
-#black{
-    width: 100%;
-    height: 225.88px;
-    background: #000000;
-    margin-top: -20px;
-    margin-bottom: 50px;
-    margin-left: -70px;
-    box-sizing: border-box;
-}
-#hehe{
-    width: 10%;
-    height: 39.38px;
-    margin-left: 122px;
-    margin-top: 28px;
-    margin-bottom: 17px
-}
-#image{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 122px ;
-}
-.facebook{
-    width: 3%;
-    height: 3%;
-    margin-right: 18px;
-}
-.mobile{
-    width: 5%;
-    height: 5%;
-    margin-right: 10px;
-}
-#image2 {
-    color: white;
-    margin-left: 200px;
-    margin-top: -100px;
-}
-.xexe{
-    display: flex;
-    align-items: center;
-    margin-left: 400px;
-    margin-top: -5px ;
-}
-
-.bye {
-width: 60%;
-}
-#end{
-    margin-top: 60px;
-    margin-left: 122px;
-    width: 50%;
-    height: 23.17px;
-    color: white;
-}
-}    
-
-    /* end Nurana */
-
-/* MOBILE */
-@media only screen and (min-width:320px) and (max-width:991px) {
-    /* Как смотреть кино– Alish */
-body{
-    padding-left: 35px;
-    padding-top: 35px;
-    width: 100%;
-}
-
-#logo{
-    width: 52.19px;
-    height: 30.75px;
-    margin-bottom: 30px;
-}
-
-/* Icons */
-#globe,
-#clock,
-#calendar {
-    width: 10.25px;
-    height: 9.79px;
-}
-
-/* paragraph next to icons */
-.icon-p {
-    font-size: 10px;
-    margin-right: 10px;
-    margin-left: 4px;
-}
-
-/* div with icons */
-#icons {
-    margin-top: 0px;
-}
-
-h1{
-    font-size: 37px;
-    width: 90%;
-    /* height: 88.53px; */
-}
-
-#description {
-    width: 100%;
-    /* height: 28.96px; */
-    font-size: 10px;
-}
-
-/* photos 1 */
-#photo1 {
-    position: absolute;
-    width: 30%;
-    height: 165.89px;
-    right: 47px;
-    top: 254px;
-}
-
-#ellipse1 {
-    position: absolute;
-    width: 30%;
-    height: 19.1px;
-    right: 47px;
-    top: 410px;
-    z-index: -1;
-}
-
-/* Notation block */
-#notation {
-    background: #1E4681;
-    border-radius: 5px;
+.container-5 .bottom .main-div {
     width: 60%;
-    height: 93.19px;
-    padding: 10px 20px 5px 15px;
-    margin: 80px 0px 0px 2px;
-    box-sizing: border-box;
-}
-
-#main-notation {
-    width: 90%;
-    height: 52.65px;
-    font-size: 11px;
-    font-family: 'Roboto Slab';
-    margin-top: 5px;
-}
-
-#author {
-    font-size: 12px;
-    width: 40%;
-    height: 21.27px;
-    position: relative;
-    left: 172px;
-    bottom: 16px;
-}
-
-#main-notation, #author {
-    color: white;
-}
-
-/* About course */
-.container {
-    width: 365px;
-    margin-top: 75px;
-}
-
-#about-h2 {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 26px;
-    width: 170.08px;
-    height: 43.34px;
-    margin-bottom: 5px;
-}
-#description-block{
-    width: 90vw;
-}
-
-#description-of-course {
-    font-size: 12px;
-    width: 80%;
-    margin-right: 0px;
-    /* height: 174.27px; */
-}
-
-#photo2 {
-    position: absolute;
-    width: 30%;
-    height: 146.78px;
-    right: 110px;
-    top: 688px;
-}
-
-#ellipse2 {
-    position: absolute;
-    width: 30%;
-    height: 27.49px;
-    right: 110px;
-    top: 818px;
-    z-index: -1;
-}
-
-/* Photo block 3 */
-.info {
-    margin-right: 0px;
-    width: 55%;
-    height:52px;
-    display: flex;
-}
-#photo-block3{
-    display: none;
-}
-#photo3 {
-    display: none;
-}
-
-#ellipse3 {
-    display: none;
-}
-
-/* Data block */
-#data-block {
-    width: 90%;
-    height: 52px;
-    display: flex;
-    flex-flow: row wrap;
-    margin: -185px 0px 0px 0px;
-}
-/* ///////////// */
-.data-subblock {
-    display: block;
-    padding: 0px;
-    margin-top: 0px;
-    margin: 0px;
-    padding: 0px 20px 0px 0px;
-}
-
-.bold {
-    font-weight: 700;
-    font-size: 12px;
-    width: 70px;
-    height: 18px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
- 
-.data {
-    font-size: 10px;
-    width: 86px;
-    height: 18px;
-    margin-top: 0px;
-}
-
-
-    /* end Alish */
-    /* Формат занятий– Goychak */
-
-
-.format {
-    width: 90%;
-    /* height: 43.34px; */
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 26px;
-    margin-bottom: 16.66px;
-}
-
-.what {
-    width: 310.8px;
-    height: 43.34px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 26px;
-    margin-bottom: 9.66px;
-}
-
-.head-three-1 {
-    width: 69.9px;
-    height: 18.17px;
-    font-weight: 700;
-    font-size: 12px;
-    color: #1E4681;
-}
-
-.head-three-2 {
-    width: 99.72px;
-    height: 18.17px;
-    font-weight: 700;
-    font-size: 12px;
-    color: #1E4681; 
-}
-
-.head-three-3 {  
-    width: 69.9px;
-    height: 18.17px;
-    font-weight: 700;
-    font-size: 12px;
-    color: #1E4681;
-}
-.p-coluumn-1 { 
-    width: 180px;
-    height: 48px;
-    font-size: 10px;
-}
-
-.p-coluumn-2 {
-    width: 165px;
-    height: 51px;
-    font-size: 10px;
-}
-
-.p-coluumn-3 {
-    width: 159px;
-    height: 31px;
-    font-size: 10px;
-}
-
-.unorder {
-    width: 75%;
-    height: 174px;
-    font-size: 12px;
-}
-.first-division {
-    width: 60%;
-    height: 216px;
-    margin-bottom: 73px;
-    display: flex;
-    flex-direction: column;
-}
-.block{
-    display: block;
-    width: 100%;
-}
-
-    /* end-Goychak */
-    /* Программа курса – Sunay */
-
-.programme {
-    font-family: 'Roboto Slab';
-    width: 308px;
-    height: 43px;
-    font-weight: 700;
-    font-size: 26px;
-}
-
-.hehe{
-    display: flex;
-    flex-direction: column;
-    margin-left: 60px;
-    width: 40%;
-    height: 1391px;
-    gap: 22px;
-}
-/* ///////////// */
-
-.flex-items {
-    width: 100%;
-    height: 152.84px;
-    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-    border-radius: 15.9792px;
-    max-width: 208px;
-}
-
-.imaj{
-    width: 100%;
-    /* height: 74.56px; */
-}
-.parone{
-    width: 100%;
-    /* height: 18.17px; */
-    font-weight: 700;
-    font-size: 14px;
-    margin-left: 20px;
-    margin-top: 4px;
-}
-.partwo{
-    width: 100%;
-    /* height: 29.36px; */
-    font-size: 12px;
-    margin-left: 19px;
-}
-
-/* end-Sunay */
-/* Курс прошло уже 1616 человек–Nurana */
-#grey{
-    width: 376px;
-    height: 423px;
-    margin-left: 1px;
-    margin-top: 45px;
-    background: #EFEFEF;
-    padding-top: 15px;
-    padding-bottom: 111px;
-    margin-left: -70px;
-    padding-left: 20px;
-}
-#celovek{
-    margin: 35px 83px 15px 40px;
-    width: 280px;
-    height: 69px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 26px;
-}
-#white{
-    width: 250px;
-    height: 248px;
-    margin: 11px 32px 53px 36px;
-    background-color: white;
-    border-radius: 30px;
-    padding: 18px 30px 39px 21px;
-}
-#text{
-    width: 250px;
-    height: 111.01px;
-    font-size: 10px;;
-}
-#img1{
-    width: 80px;
-    height: 84px;
-    margin: 21px 13px;
-}
-#ekaterina{
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 14px;
-    width: 164.49px;
-    height: 32.73px;
-    margin: 39px 0px 0px 6px;
-}
-#div{
-    display: flex;
-}
-#fb{
-    width: 14.91px;
-    height: 17.2px;
-    margin-left: 6px;
-}
-#ekaterinablock{
-    display: flex;
-    flex-direction: column;
-}
-#lightblue {
-    width: 450px;
-    height: 430px;
-    background-color: #9DC9C8;
-    margin-top: 0px;
-    padding-top: 103px;
-    padding-left: 70px;
-    box-sizing: border-box;
-    margin-left: -122px;
-    padding-left: 20px;
-}
-#september{
-    font-weight: 700;
-    font-size: 26px;
-    width: 224px;
-    margin-top: -30px;
-    margin-left: 80px;
-    height: 63px;
-}
-#price{
-    width: 79.22px;
-    height: 14.91px;
-    font-size: 12px;
-    margin-bottom: 0px;
-    margin-left: 80px;
-}
-#rubl{
-    width: 224.13px;
-    height: 84.34px;
-    font-weight: 400;
-    font-size: 37px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    margin-left: 80px;
-}
-.td1{
-    width: 300px;
-    height: 10px;
-    padding-bottom: 0px;
-    padding-right: 70px;
-    margin-top: 0px;
-    font-size: 12px;
-    font-weight: 500;
-    padding-left: 70px;
-}
-.td2{
-    width: 190px;
-    height: 110px;
-    font-size: 10px;
-    padding-left: 70px;
-    margin-bottom: 90px;
-}
-#black{
-    width: 450px;
-    height: 251px;
-    background: #000000;
-    margin-top: -20px;
+    margin: auto;
     margin-bottom: 50px;
-    margin-left: -122px;
-    box-sizing: border-box;
 }
-#hehe{
-    width: 53.59px;
-    height: 31.69px;
-    margin-left: 122px;
-    margin-top: 28px;
-    margin-bottom: 17px
+.container-5 .bottom .main-div p {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
-#image{
+    .container-6 {
+        height: 700px;
+    }
+    .section-6 .text-bottom-left img {
+        width: 88%;
+    }
+    .container-6 h1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+   .container-6 .text {
+        width:100%;
+    }
+    .container-6 .text h2 {
+       font-size: 16px;
+    }
+.section7 {
+    height:1150px;
+    width: 100%;
+}
+.section7 .bottom{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 122px ;
+    width: 100%;
 }
-.facebook{
-    width: 15.38px;
-    height: 15.38px;
-    margin-right: 18px;
+.section7 h1 {
+    font-size: 60px;
+    padding-top: 30px;
 }
-.mobile{
-    width: 12.58px;
-    height: 12.58px;
-    margin-right: 10px;
+.section7 .second {
+    font-size: 30px;
 }
-#image2 {
-    color: white;
-    margin-left: 200px;
-    margin-top: -100px;
+
+.section7 .left{
+    width: 85%;
+
 }
-.xexe{
-    display: flex;
-    margin-left: -80px;
-    font-size: 12px;
+.section7 .right{
+    width: 85%;
 }
-#xexe{
-    margin-top: 130px;
+.section8 .top {
+    display: block;
 }
-#mobile{
-    width: 300px;
-    height: 41.01px;
+.section8 .top-right {
+    width: 60%;
+    padding-top: 20px;
 }
-#end{
-    margin-top: 70px;
-    margin-left: 122px;
-    width: 141px;
-    height: 19px;
-    font-size: 10px;
-    color: white;
-}
-/* End- Nurana */
+
 }
